@@ -90,9 +90,10 @@ for i in range(len(data_dict["obj_name"])):
 
             
 '''after downloading, find the pixel coordinates of the RA/dec that you have and then cut a 100/100 square around there '''
+image_number = 0 #want to make sure NO numbers are missing. To make importing the finished data easier
 for cutout in range(len(data_dict["obj_name"])):
     try:
-        data, hdr = fits.getdata("/run/media/toyonagar/Lexar/negatives/cutout_"+str(cutout)+".fits", 1, header=True) #'sci' image[1] data and header
+        data, hdr = fits.getdata("/run/media/toyonagar/Lexar/negatives/cutout_"+str(cutout)+".fits", 1, header=True) 
         w = wcs.WCS(hdr)
         pixcrd2 = w.wcs_world2pix([[float(data_dict['ra'][cutout]), float(data_dict['dec'][cutout])]], 0)
         print (pixcrd2)
@@ -105,9 +106,9 @@ for cutout in range(len(data_dict["obj_name"])):
         centered_cut.data = tmp_image.reshape(centered_cut.data.shape[0],centered_cut.data.shape[1])
         
         #save the image
-        fits.writeto('/run/media/toyonagar/Lexar/negatives/out'+str(cutout)+'.fits',
+        fits.writeto('/run/media/toyonagar/Lexar/negatives/out'+str(image_number)+'.fits',
                      centered_cut.data, header=hdr, overwrite=True)
-    
+        image_number +=1
     except:
         print("skipped due to non-existent image, or conversion error")
 

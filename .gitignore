@@ -1,5 +1,5 @@
 *.fits
 *.tar
-*.tar.gz
+
 *.zip
 /lenstool-7.1-linux64
