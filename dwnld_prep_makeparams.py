@@ -57,7 +57,7 @@ def image_params(lens):
 
     for line in range(len(lines)):
         if "SOURCEFLAG" in lines[line]:
-            lines[line] = "\t" +"source     1 cusp_left_" +str(lens)+".cat" +"\n" 
+            lines[line] = "\t" +"source     1 cusp_left_" +str(lens)+".cat" +"\n" #PATH tmp.cat files in run dir
         if "PIXELFLAG" in lines[line]:
             lines[line] =  "\t" +"pixel     1 100 lens_image_"+str(lens)+".fits" +"\n" #PATH exports to run dir
         if "SKYFLAG" in lines[line]:
@@ -73,7 +73,7 @@ def image_params(lens):
         if "RADFLAG" in lines[line]:
             lines[line] =  "\t" +"core_radius_kpc     "+str(core_rad_kpc[lens]) +"\n"
 
-    f = open("temp_parameters_"+str(lens)+".par","w")
+    f = open("temp_parameters_"+str(lens)+".par","w") #PATH temp .par files in run dir
     f.writelines(lines)
     f.close()
 

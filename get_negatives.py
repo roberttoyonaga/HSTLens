@@ -12,10 +12,11 @@ import random
 from sklearn.preprocessing import minmax_scale
 
 hm_lenses = input("How many lenses do you want to generate parameter files for? ")
-
+NEGATIVES_PATH = "/run/media/toyonagar/Lexar/negatives/cutout_"
+NEGATIVES_OUT_PATH = '/run/media/toyonagar/Lexar/negatives/out'
 
 def dwnld(entry, data_dict):
-    subprocess.check_output(["wget", "-O","/run/media/toyonagar/Lexar/negatives/cutout_"+str(entry)+ ".fits" ,
+    subprocess.check_output(["wget", "-O",NEGATIVES_PATH+str(entry)+ ".fits" ,
                              "http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/cutout?uri=mast:HST/product/"+
                              data_dict["obj_name"][entry]+"_drz.fits&cutout=Circle+ICRS+" + str(data_dict["ra"][entry]) + "+" +
                              str(data_dict["dec"][entry]) + "+0.001"]) #tried 0.0005
@@ -93,7 +94,7 @@ for i in range(len(data_dict["obj_name"])):
 image_number = 0 #want to make sure NO numbers are missing. To make importing the finished data easier
 for cutout in range(len(data_dict["obj_name"])):
     try:
-        data, hdr = fits.getdata("/run/media/toyonagar/Lexar/negatives/cutout_"+str(cutout)+".fits", 1, header=True) 
+        data, hdr = fits.getdata(NEGATIVES_PATH+str(cutout)+".fits", 1, header=True) 
         w = wcs.WCS(hdr)
         pixcrd2 = w.wcs_world2pix([[float(data_dict['ra'][cutout]), float(data_dict['dec'][cutout])]], 0)
         print (pixcrd2)
@@ -106,7 +107,7 @@ for cutout in range(len(data_dict["obj_name"])):
         centered_cut.data = tmp_image.reshape(centered_cut.data.shape[0],centered_cut.data.shape[1])
         
         #save the image
-        fits.writeto('/run/media/toyonagar/Lexar/negatives/out'+str(image_number)+'.fits',
+        fits.writeto(NEGATIVES_OUT_PATH+str(image_number)+'.fits',
                      centered_cut.data, header=hdr, overwrite=True)
         image_number +=1
     except:
