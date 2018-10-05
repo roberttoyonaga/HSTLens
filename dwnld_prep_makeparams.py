@@ -110,7 +110,7 @@ for i in range(len(dataframe)):
         
         
 '''tap query for the potential results'''
-print("========== tyou can make this many lenses: "+str(len(data_dict['ra'])))
+print("========== you can make this many lenses: "+str(len(data_dict['ra'])))
 start=time.time()
 for i in range(hm_lenses):#range(len(data_dict['ra'])):
     print(i)
@@ -187,7 +187,7 @@ for i in range(hm_lenses):
     else:
         zlens.append(data_dict['z_phot'][i])
     
-    sky.append(100)
+    sky.append(1) #set to 1 for no neg values
     ellip.append(float(random.randint(0,90))/100.)
     x_cent.append(float(random.randint(0,100))/1000.) 
     y_cent.append(float(random.randint(0,100))/1000.)

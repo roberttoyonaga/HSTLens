@@ -1,7 +1,7 @@
 runmode
 	reference	3 0.000000 0.000000 0.000000 0.000000
-	source	1 cusp_left_799.cat
-	pixel	1 100 lens_image_799.fits
+	source	1 cusp_left_699.cat
+	pixel	1 100 lens_image_699.fits
 	shearfield	1 0.600000 shear.dat 25
 	end
 grille
@@ -15,16 +15,16 @@ source
 potentiel
 0
 	profil		81
-	x_centre	0.023000
-	y_centre	0.061000
-	ellipticite	0.180000
+	x_centre	0.069000
+	y_centre	0.001000
+	ellipticite	0.800000
 	angle_pos	100.000000
 	core_radius	4.000000
-	core_radius_kpc	4.060000
+	core_radius_kpc	7.000000
 	cut_radius	1000.000000
 	cut_radius_kpc	941.161000
 	v_disp		1232.411000
-	z_lens		0.620000
+	z_lens		2.650000
 	end
 cline
 	nplan		1 0.600000 
@@ -35,9 +35,9 @@ cline
 observ
 	binning		1 4
 	seeing		1 1.000000
-	bruit		0
+	bruit		1
 	dispersion		2.000000
-	sky		100.000000
+	sky		1.000000
 	end
 grande
 	iso	1 200 0.100000 0.000000 0.000000
@@ -61,16 +61,16 @@ champ
 	ymax	20.000000
 	end
 fini
-For z_s = 4.0000  DLS/DS:0.6326
-DLS:0.1593(lt) 682.10(Mpc) DOS:0.2517(lt) 1078.18(Mpc)
-DOL:0.2854(lt) 1222.45(Mpc) DOL_lum:0.7491(lt) 3208.21(Mpc)
-Mcrit:2.149865e-03 (10^12 Msol/kpc^2)
-Conversion Factor @ z = 0.620000, 1 arcsec == 5.927 kpc
+For z_s = 4.0000  DLS/DS:0.1443
+DLS:0.0363(lt) 155.60(Mpc) DOS:0.2517(lt) 1078.18(Mpc)
+DOL:0.2951(lt) 1263.81(Mpc) DOL_lum:3.9314(lt) 16837.08(Mpc)
+Mcrit:9.116181e-03 (10^12 Msol/kpc^2)
+Conversion Factor @ z = 2.650000, 1 arcsec == 6.127 kpc
 Number of Clumps: 1
 -------- Clump 1: PIEMD Kovner, truncated
- Total mass: 1731.027110(cor) 1560.092979 (10^12 M_sol)
- rcut:158.80(") 941.16(kpc)
+ Total mass: 1731.027110(cor) 1555.255538 (10^12 M_sol)
+ rcut:153.61(") 941.16(kpc)
  vdisp:1232.41(km/s) b0:65.7046
- rc:0.69(") 4.06(kpc)
- rt:158.80(") 941.16(kpc)
+ rc:1.14(") 7.00(kpc)
+ rt:153.61(") 941.16(kpc)
  r_ct:0.0000 r_cr:0.0000

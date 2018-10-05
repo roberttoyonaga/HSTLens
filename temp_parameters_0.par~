@@ -1,0 +1,72 @@
+runmode
+	reference     3 0.000000 0.000000
+	source     1 cusp_left_0.cat
+	#source    3 cusp.cat
+	#source    3 cusp_top.cat
+	#source    3 fold.cat
+	#source	  3 single.cat
+	#mass      3 200 0.2 mass.fits
+	pixel     1 100 lens_image_0.fits
+	shearfield  1 0.600 shear.dat
+	end
+grille
+	nombre      100
+	polaire     0
+	nlentille   1
+	end
+source
+	z_source     4.000
+	end
+potentiel O1
+	profil     81
+	x_centre     0.017
+	y_centre     0.066
+	ellipticite     0.26
+	#ellip_pot	1.5
+	angle_pos       100.0
+	core_radius  4.000 
+	core_radius_kpc     5.99
+	cut_radius  1000.000 
+	cut_radius_kpc     941.161
+	v_disp     1232.411
+#	alpha 	   100 
+#	beta	   0.5
+	z_lens      0.776
+	end
+cline
+	nplan    1 0.600  
+	algorithm   MARCHINGSQUARES
+	limitHigh   10.0
+	limitLow    1.000
+	end
+observ
+	binning     1  4 
+	seeing	    1 1. 
+	bruit       1 #must be 1 not lower 
+	dispersion  2
+	sky         1 #must be at 1 or lower, not 0 though or you gat NaN, the lower you go the less "full" the lenses become
+	end
+
+
+grande
+	iso         1 200 0.100 0.000 0.000
+	vitesse     1
+	name        best
+	profil      0 0
+	contour     0 0
+	large_dist  3.000
+	end
+
+cosmologie
+	H0        70.000
+	omegaM    0.7
+	omegaX    0.3
+	wX        -1.
+	end
+champ
+	xmin    -20 #-2.5 
+	xmax    20 #2.5 
+	ymin    -20 #-2.5 
+	ymax    20 #2.5 
+	end
+fini
