@@ -12,6 +12,7 @@ import random
 
 CUTOUT_PATH = "/run/media/toyonagar/Lexar/cutout/cutout_"
 OUT_PATH ='/run/media/toyonagar/Lexar/out/out'
+LENSES_PATH = "lenses/lens_image_"
 hm_lenses = input("How many lenses do you want to generate parameter files for? ")
 
 
@@ -59,7 +60,7 @@ def image_params(lens):
         if "SOURCEFLAG" in lines[line]:
             lines[line] = "\t" +"source     1 cusp_left_" +str(lens)+".cat" +"\n" #PATH tmp.cat files in run dir
         if "PIXELFLAG" in lines[line]:
-            lines[line] =  "\t" +"pixel     1 100 lens_image_"+str(lens)+".fits" +"\n" #PATH exports to run dir
+            lines[line] =  "\t" +"pixel     1 100 "+LENSES_PATH+str(lens)+".fits" +"\n" #PATH exports to run dir/lenses/
         if "SKYFLAG" in lines[line]:
             lines[line] =  "\t" +"sky     "+str(sky[lens]) +"\n"
         if "ZFLAG" in lines[line]:

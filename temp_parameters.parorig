@@ -42,7 +42,7 @@ cline
 observ
 	binning     1  4 
 	seeing	    1 1.  # float: guassian filter FWHM of size float in arcsec
-	bruit       1 #noise. if set to 0 then the background should also be 0, and "sky" doesnt matter
+	bruit       0 #noise. if set  to then the background should also be 0, and "sky" doesnt matter
 	dispersion  2
 	SKYFLAG
 	end
@@ -50,7 +50,7 @@ observ
 
 grande
 	iso         1 200 0.100 0.000 0.000
-	vitesse     1
+#	vitesse     1
 	name        best
 	profil      0 0
 	contour     0 0
