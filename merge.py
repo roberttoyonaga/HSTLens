@@ -30,22 +30,19 @@ def normalize( all_cutouts, all_lenses, hm_lenses): #only for 1 color channel
     return all_cutouts, all_lenses
     
 
-def load_images(sample_num):
+def load_images(sample_num): #NEED TO LOAD THE SAME IMAGE FOUR TIMES INTO all_cutouts
     
-    try:
-        lens = fits.open(LENSES_PATH+str(sample_num)+".fits")[0].data #PATH will  run dir
-    except:
-        print "lens messed up"
-    try:
-        cutout = fits.open(OUT_PATH+str(sample_num)+".fits")[0].data 
-    except:
-        print "out messed up"
-    try:
-        cutout = cutout.reshape(1,cutout.shape[0],cutout.shape[1])
-        lens = lens.reshape(1,lens.shape[0],lens.shape[1])
-    except: 
-        print "reshape" 
+   
+    lens = fits.open(LENSES_PATH+str(sample_num)+".fits")[0].data #PATH will  run dir
+    
+
+    cutout = fits.open(OUT_PATH+str(sample_num)+".fits")[0].data 
+
+    cutout = cutout.reshape(1,cutout.shape[0],cutout.shape[1])
+    lens = lens.reshape(1,lens.shape[0],lens.shape[1])
+  
     return cutout, lens
+    
     
 
 def save_images(hm_lenses, merged):
@@ -96,17 +93,14 @@ merged = sum_images(all_cutouts, all_lenses)
 
 print("images merged") 
 
+#rescale again to 0-1 after adding
 bad_images = []
 for image in range(len(merged)):
     try:
         tmp_image = merged[image].reshape(-1,)
         tmp_image = minmax_scale(tmp_image, feature_range = (0,1))
         merged[image] = tmp_image.reshape(merged[image].shape[0],merged[image].shape[1])
-        '''
-        tmp_out = all_cutouts[image][0].reshape(-1,)
-        tmp_out = minmax_scale(tmp_out, feature_range = (0,1))
-        all_cutouts[image][0] = tmp_out.reshape(all_cutouts[image][0].shape[0],all_cutouts[image][0].shape[1])
-        '''
+       
     except:
         bad_images.append(image)
         print ("image contains NaN")

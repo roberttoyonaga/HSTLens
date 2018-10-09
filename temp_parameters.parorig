@@ -50,7 +50,7 @@ observ
 
 grande
 	iso         1 200 0.100 0.000 0.000
-#	vitesse     1
+#	vitesse     1  #commenting this out prevents negative values
 	name        best
 	profil      0 0
 	contour     0 0
