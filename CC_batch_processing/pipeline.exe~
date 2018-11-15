@@ -1,0 +1,28 @@
+#!/bin/sh
+module load python/3.6
+module load sextractor
+#module load tensorflow
+source $HOME/projects/def-sfabbro/mlhaa/bin/activate
+unset XDG_RUNTIME_DIR
+OMP_NUM_THREADS=16
+
+START_POINT=$1
+#get the image number
+#echo "enter start point"
+
+#read START_POINT
+
+#download the image
+echo $START_POINT | python dwnld.py
+
+#run SE
+sex full_$START_POINT.fits -c parameters.se -CATALOG_NAME image_$START_POINT.cat
+
+#make cutouts and do detections and save output
+
+echo $START_POINT | python run_predictions.py
+
+#scp roberttoyonaga@jupyter.canfar.net:results_$START_POINT.out /run/media/toyonagar/Lexar/batch_processing
+#might ask for authentification
+
+#rm *.fits *.cat

@@ -1,5 +1,2 @@
+weights
 *.fits
-*.tar
-
-*.zip
-/lenstool-7.1-linux64
