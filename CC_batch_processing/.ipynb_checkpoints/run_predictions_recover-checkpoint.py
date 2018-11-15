@@ -12,7 +12,10 @@ from HSTLens_resnet2 import deeplens_classifier
 import pandas as pd
 
 
-start_point = input("start_point")
+begin = int(input("start_point"))
+jobs = pd.read_csv('/home/toyonaga/projects/def-sfabbro/toyonaga/HSTLens/CC_batch_processing/missed_jobs.csv')
+start_point= jobs['job'][begin]
+
 IMAGE_PATH = '/home/toyonaga/scratch/pipeline/full/full_'+str(start_point)
 width=100
 mini_batch_sz =500
@@ -70,7 +73,7 @@ for batch in range(hm_batches+1):
         ims = np.zeros((last_batch,1, width, width))
     for cutout in range(len(ims)):
         try:
-            print(xl[cutout+curr],yl[cutout+curr])
+            #print(xl[cutout+curr],yl[cutout+curr])
             centered_cut = Cutout2D(data,(float(xl[cutout+curr]), 
                                           float(yl[cutout+curr])), (width, width)).data # +random.randint(-15,15)
 
