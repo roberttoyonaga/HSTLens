@@ -11,24 +11,30 @@ export OMP_NUM_THREADS=16
 
 
 COUNTER=0
-while [  $COUNTER -lt 2 ]; do
+while [  $COUNTER -lt 20 ]; do
     
     
     #download the image
     echo $(($START_POINT+$COUNTER)) | python dwnld.py
 
-    #run SE
-    sex /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
 
     #make cutouts and do detections and save output
-
-    echo $(($START_POINT+$COUNTER)) | python run_predictions.py
-
-
-
-    rm /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
-    
+    echo $(($START_POINT+$COUNTER)) | python run_predictions.py   
     
     
     let COUNTER=COUNTER+1 
 done
+
+
+
+
+
+
+
+
+
+    #run SE
+    #sex /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
+
+
+#     rm /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat

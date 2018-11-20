@@ -27,4 +27,7 @@ for i in range(batch_size):
         print("Failed")
 print("failed: "+str(fails))
 
-os.system('sex /home/toyonaga/scratch/pipeline/full/full_'+ str(start_point)+'.fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_'+str(start_point)+'.cat ')
+try:
+    os.system('sex /home/toyonaga/scratch/pipeline/full/full_'+ str(start_point)+'.fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_'+str(start_point)+'.cat ')
+except:
+    print('sextractor failed')

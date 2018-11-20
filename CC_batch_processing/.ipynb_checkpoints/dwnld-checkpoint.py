@@ -1,5 +1,8 @@
 import pandas as pd
 import subprocess
+import os
+
+
 batch_size = 1
 start_point = input("starting point")
 DWNLD_PATH = "/home/toyonaga/scratch/pipeline/full/full_"+str(start_point)
@@ -23,3 +26,7 @@ for i in range(batch_size):
         print("Failed")
 print("failed: "+str(fails))
 
+try:
+    os.system('sex /home/toyonaga/scratch/pipeline/full/full_'+ str(start_point)+'.fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_'+str(start_point)+'.cat ')
+except:
+    print('sextractor failed')

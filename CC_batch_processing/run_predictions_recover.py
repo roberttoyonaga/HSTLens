@@ -10,7 +10,7 @@ from keras.layers import Activation
 from keras.layers import Conv2D, ELU
 from HSTLens_resnet2 import deeplens_classifier
 import pandas as pd
-
+import os
 
 begin = int(input("start_point"))
 jobs = pd.read_csv('/home/toyonaga/projects/def-sfabbro/toyonaga/HSTLens/CC_batch_processing/missed_jobs.csv')
@@ -144,5 +144,10 @@ for prediction in range(len(predictions)):
 out = out.drop(out.index[neg]) #drop all the rows that are not lenses
 out.to_csv(OUT_PATH, index = False) #dont save the indexing
 
-
+try:
+    os.system('rm /home/toyonaga/scratch/pipeline/full/full_'
+             +str(start_point)+'.fits /home/toyonaga/scratch/pipeline/cat/image_'
+             +str(start_point)+'.cat')
     
+except:
+    print('removal of images failed')

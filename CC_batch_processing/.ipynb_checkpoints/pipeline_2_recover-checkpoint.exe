@@ -11,14 +11,14 @@ export OMP_NUM_THREADS=16
 
 
 COUNTER=0
-while [  $COUNTER -lt 3 ]; do
+while [  $COUNTER -lt 25 ]; do
     
     
     #download the image
     echo $(($START_POINT+$COUNTER)) | python dwnld_recover.py
 
     #run SE
-    sex /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
+    #sex /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
 
     #make cutouts and do detections and save output
 
@@ -26,7 +26,7 @@ while [  $COUNTER -lt 3 ]; do
 
 
 
-    rm /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
+    #rm /home/toyonaga/scratch/pipeline/full/full_$(($START_POINT+$COUNTER)).fits /home/toyonaga/scratch/pipeline/cat/image_$(($START_POINT+$COUNTER)).cat
     
     
     
