@@ -15,16 +15,11 @@ while [  $COUNTER -lt 20 ]; do
     
     
     #download the image
-    echo $(($START_POINT+$COUNTER)) | python dwnld.py
+    echo $(($START_POINT+$COUNTER)) | python dwnld_2.py
 
 
     #make cutouts and do detections and save output
-    echo $(($START_POINT+$COUNTER)) | python run_predictions.py
-
-
-
-
-    
+    echo $(($START_POINT+$COUNTER)) | python run_predictions_2.py   
     
     
     let COUNTER=COUNTER+1 

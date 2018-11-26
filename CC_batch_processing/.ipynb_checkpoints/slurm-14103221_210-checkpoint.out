@@ -1,0 +1,1013 @@
+starting point--2018-11-21 16:13:11--  http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MAST/HST/product/j97401040_drz.fits
+Resolving www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)... 132.246.217.6, 132.246.217.5, 132.246.217.7, ...
+Connecting to www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)|132.246.217.6|:80... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: http://ws-uv.canfar.net/transfer/bmVpZ2g9VVZJQyZzaWdleHA9MjAxODExMjIwMDI4MTImYXJjPU1BU1QmaWQ9ZDE4OTliMjEwOTNhYzMyYzJlMDRhMjExMWU3MGU0YTAzYWE0MGFmMzM3MjY0YWZkMDAxZWUzOTk2Y2M0MTc3ZWUzOWQ2ZjgxYzM1ZmY4NzU0MjBlMTExMjdmYmFjMzA3ZDFiZWU3MjBjMzljNTFjNzEzOWJkNWRjMjg1YmM2MzAmdXNlcj1hbm9uVXNlciZucz1IU1QlMkZwcm9kdWN0Jm1ldGg9Z2V0JmF1dGhDb2RlPTAmdXJsPWh0dHAlM0ElMkYlMkZzdG9yLXV2LTAzLmNhbmZhci5uZXQlM0E4ODg4JTJGYXJjaGl2ZSUyRjczZDgwMGU1JTJGMTcxMSUyRm1hc3QlMkZkZWZhdWx0JTJGMDAlMkY0NCUyRjk1JTJGZDE4OTliMjEwOTNhYzMyYzJlMDRhMjExMWU3MGU0YTAzYWE0MGFmMzM3MjY0YWZkMDAxZWUzOTk2Y2M0MTc3ZWUzOWQ2ZjgxYzM1ZmY4NzU0MjBlMTExMjdmYmFjMzA3ZDFiZWU3MjBjMzljNTFjNzEzOWJkNWRjMjg1YmM2MzAlMjUzQiUyNTNCMjQ1ODAyNzYmc2VydmljZVVybD1odHRwJTNBJTJGJTJGd3d3LmNhZGMtY2NkYS5oaWEtaWhhLm5yYy1jbnJjLmdjLmNhJTJGZGF0YSUyRnB1YiUyRk1BU1QlMkZIU1QlMkZwcm9kdWN0JTJGajk3NDAxMDQwX2Ryei5maXRz-ZmlkPWo5NzQwMTA0MF9kcnouZml0cyZjbG49MTQxMzUwNDAmY21kPWI0MWI0NzQ2MDNmNzZmYTAwMWIyNjdjNGQ4ZThmMmZhJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1MzkxMzU3MjUwMDAmdWxuPTE0MTM1MDQwJnVtZD1iNDFiNDc0NjAzZjc2ZmEwMDFiMjY3YzRkOGU4ZjJmYQ==-a9b6b8efd3c8d7f595a5de4097e3a450/j97401040_drz.fits [following]
+--2018-11-21 16:13:12--  http://ws-uv.canfar.net/transfer/bmVpZ2g9VVZJQyZzaWdleHA9MjAxODExMjIwMDI4MTImYXJjPU1BU1QmaWQ9ZDE4OTliMjEwOTNhYzMyYzJlMDRhMjExMWU3MGU0YTAzYWE0MGFmMzM3MjY0YWZkMDAxZWUzOTk2Y2M0MTc3ZWUzOWQ2ZjgxYzM1ZmY4NzU0MjBlMTExMjdmYmFjMzA3ZDFiZWU3MjBjMzljNTFjNzEzOWJkNWRjMjg1YmM2MzAmdXNlcj1hbm9uVXNlciZucz1IU1QlMkZwcm9kdWN0Jm1ldGg9Z2V0JmF1dGhDb2RlPTAmdXJsPWh0dHAlM0ElMkYlMkZzdG9yLXV2LTAzLmNhbmZhci5uZXQlM0E4ODg4JTJGYXJjaGl2ZSUyRjczZDgwMGU1JTJGMTcxMSUyRm1hc3QlMkZkZWZhdWx0JTJGMDAlMkY0NCUyRjk1JTJGZDE4OTliMjEwOTNhYzMyYzJlMDRhMjExMWU3MGU0YTAzYWE0MGFmMzM3MjY0YWZkMDAxZWUzOTk2Y2M0MTc3ZWUzOWQ2ZjgxYzM1ZmY4NzU0MjBlMTExMjdmYmFjMzA3ZDFiZWU3MjBjMzljNTFjNzEzOWJkNWRjMjg1YmM2MzAlMjUzQiUyNTNCMjQ1ODAyNzYmc2VydmljZVVybD1odHRwJTNBJTJGJTJGd3d3LmNhZGMtY2NkYS5oaWEtaWhhLm5yYy1jbnJjLmdjLmNhJTJGZGF0YSUyRnB1YiUyRk1BU1QlMkZIU1QlMkZwcm9kdWN0JTJGajk3NDAxMDQwX2Ryei5maXRz-ZmlkPWo5NzQwMTA0MF9kcnouZml0cyZjbG49MTQxMzUwNDAmY21kPWI0MWI0NzQ2MDNmNzZmYTAwMWIyNjdjNGQ4ZThmMmZhJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1MzkxMzU3MjUwMDAmdWxuPTE0MTM1MDQwJnVtZD1iNDFiNDc0NjAzZjc2ZmEwMDFiMjY3YzRkOGU4ZjJmYQ==-a9b6b8efd3c8d7f595a5de4097e3a450/j97401040_drz.fits
+Resolving ws-uv.canfar.net (ws-uv.canfar.net)... 206.12.48.219
+Connecting to ws-uv.canfar.net (ws-uv.canfar.net)|206.12.48.219|:80... connected.
+HTTP request sent, awaiting response... 200 
+Length: 14135040 (13M) [image/fits]
+Saving to: ‘/home/toyonaga/scratch/pipeline/full/full_4200.fits’
+
+     0K .......... .......... .......... .......... ..........  0%  969K 14s
+    50K .......... .......... .......... .......... ..........  0% 2.58M 10s
+   100K .......... .......... .......... .......... ..........  1% 3.50M 8s
+   150K .......... .......... .......... .......... ..........  1% 1.11M 9s
+   200K .......... .......... .......... .......... ..........  1% 23.9M 7s
+   250K .......... .......... .......... .......... ..........  2% 3.54M 6s
+   300K .......... .......... .......... .......... ..........  2% 2.19M 6s
+   350K .......... .......... .......... .......... ..........  2% 1.04M 7s
+   400K .......... .......... .......... .......... ..........  3% 31.9M 6s
+   450K .......... .......... .......... .......... ..........  3% 2.69M 6s
+   500K .......... .......... .......... .......... ..........  3% 2.41M 6s
+   550K .......... .......... .......... .......... ..........  4% 1.55M 6s
+   600K .......... .......... .......... .......... ..........  4% 2.65M 6s
+   650K .......... .......... .......... .......... ..........  5% 1.80M 6s
+   700K .......... .......... .......... .......... ..........  5% 1.47M 6s
+   750K .......... .......... .......... .......... ..........  5%  163K 11s
+   800K .......... .......... .......... .......... ..........  6% 22.7M 10s
+   850K .......... .......... .......... .......... ..........  6% 26.8M 10s
+   900K .......... .......... .......... .......... ..........  6% 27.2M 9s
+   950K .......... .......... .......... .......... ..........  7% 27.2M 9s
+  1000K .......... .......... .......... .......... ..........  7% 23.7M 8s
+  1050K .......... .......... .......... .......... ..........  7% 27.0M 8s
+  1100K .......... .......... .......... .......... ..........  8% 28.9M 8s
+  1150K .......... .......... .......... .......... ..........  8% 10.3M 7s
+  1200K .......... .......... .......... .......... ..........  9% 3.89M 7s
+  1250K .......... .......... .......... .......... ..........  9% 4.50M 7s
+  1300K .......... .......... .......... .......... ..........  9% 3.26M 7s
+  1350K .......... .......... .......... .......... .......... 10% 4.23M 7s
+  1400K .......... .......... .......... .......... .......... 10% 1.34M 7s
+  1450K .......... .......... .......... .......... .......... 10% 24.4M 6s
+  1500K .......... .......... .......... .......... .......... 11% 5.62M 6s
+  1550K .......... .......... .......... .......... .......... 11% 1.51M 6s
+  1600K .......... .......... .......... .......... .......... 11% 1.46M 6s
+  1650K .......... .......... .......... .......... .......... 12% 1.22M 6s
+  1700K .......... .......... .......... .......... .......... 12% 1.11M 6s
+  1750K .......... .......... .......... .......... .......... 13% 1.56M 6s
+  1800K .......... .......... .......... .......... .......... 13% 1.11M 7s
+  1850K .......... .......... .......... .......... .......... 13% 50.1M 6s
+  1900K .......... .......... .......... .......... .......... 14% 2.28M 6s
+  1950K .......... .......... .......... .......... .......... 14% 2.52M 6s
+  2000K .......... .......... .......... .......... .......... 14% 1.53M 6s
+  2050K .......... .......... .......... .......... .......... 15% 1.86M 6s
+  2100K .......... .......... .......... .......... .......... 15% 1.16M 6s
+  2150K .......... .......... .......... .......... .......... 15% 1.31M 6s
+  2200K .......... .......... .......... .......... .......... 16%  626K 7s
+  2250K .......... .......... .......... .......... .......... 16% 24.1M 6s
+  2300K .......... .......... .......... .......... .......... 17% 1.54M 6s
+  2350K .......... .......... .......... .......... .......... 17% 1.04M 6s
+  2400K .......... .......... .......... .......... .......... 17% 1.01M 6s
+  2450K .......... .......... .......... .......... .......... 18% 1.08M 7s
+  2500K .......... .......... .......... .......... .......... 18%  948K 7s
+  2550K .......... .......... .......... .......... .......... 18%  571K 7s
+  2600K .......... .......... .......... .......... .......... 19% 46.3M 7s
+  2650K .......... .......... .......... .......... .......... 19% 2.01M 7s
+  2700K .......... .......... .......... .......... .......... 19% 1.31M 7s
+  2750K .......... .......... .......... .......... .......... 20% 1.06M 7s
+  2800K .......... .......... .......... .......... .......... 20% 1.08M 7s
+  2850K .......... .......... .......... .......... .......... 21% 1.36M 7s
+  2900K .......... .......... .......... .......... .......... 21%  938K 7s
+  2950K .......... .......... .......... .......... .......... 21%  919K 7s
+  3000K .......... .......... .......... .......... .......... 22% 1.03M 7s
+  3050K .......... .......... .......... .......... .......... 22% 1.32M 7s
+  3100K .......... .......... .......... .......... .......... 22%  960K 7s
+  3150K .......... .......... .......... .......... .......... 23% 1.07M 7s
+  3200K .......... .......... .......... .......... .......... 23%  890K 7s
+  3250K .......... .......... .......... .......... .......... 23%  371K 7s
+  3300K .......... .......... .......... .......... .......... 24%  873K 7s
+  3350K .......... .......... .......... .......... .......... 24% 31.0M 7s
+  3400K .......... .......... .......... .......... .......... 24%  705K 7s
+  3450K .......... .......... .......... .......... .......... 25%  469K 7s
+  3500K .......... .......... .......... .......... .......... 25%  915K 7s
+  3550K .......... .......... .......... .......... .......... 26%  561K 7s
+  3600K .......... .......... .......... .......... .......... 26%  613K 8s
+  3650K .......... .......... .......... .......... .......... 26%  809K 8s
+  3700K .......... .......... .......... .......... .......... 27%  708K 8s
+  3750K .......... .......... .......... .......... .......... 27%  799K 8s
+  3800K .......... .......... .......... .......... .......... 27%  629K 8s
+  3850K .......... .......... .......... .......... .......... 28%  639K 8s
+  3900K .......... .......... .......... .......... .......... 28%  737K 8s
+  3950K .......... .......... .......... .......... .......... 28%  786K 8s
+  4000K .......... .......... .......... .......... .......... 29%  839K 8s
+  4050K .......... .......... .......... .......... .......... 29%  294K 8s
+  4100K .......... .......... .......... .......... .......... 30% 49.5M 8s
+  4150K .......... .......... .......... .......... .......... 30%  644K 8s
+  4200K .......... .......... .......... .......... .......... 30%  776K 8s
+  4250K .......... .......... .......... .......... .......... 31%  638K 8s
+  4300K .......... .......... .......... .......... .......... 31%  539K 8s
+  4350K .......... .......... .......... .......... .......... 31%  514K 8s
+  4400K .......... .......... .......... .......... .......... 32%  570K 8s
+  4450K .......... .......... .......... .......... .......... 32% 1.00M 8s
+  4500K .......... .......... .......... .......... .......... 32%  879K 8s
+  4550K .......... .......... .......... .......... .......... 33%  571K 8s
+  4600K .......... .......... .......... .......... .......... 33%  580K 8s
+  4650K .......... .......... .......... .......... .......... 34%  590K 8s
+  4700K .......... .......... .......... .......... .......... 34%  502K 8s
+  4750K .......... .......... .......... .......... .......... 34%  636K 8s
+  4800K .......... .......... .......... .......... .......... 35%  823K 8s
+  4850K .......... .......... .......... .......... .......... 35% 6.47M 8s
+  4900K .......... .......... .......... .......... .......... 35%  787K 8s
+  4950K .......... .......... .......... .......... .......... 36%  438K 8s
+  5000K .......... .......... .......... .......... .......... 36% 4.22M 8s
+  5050K .......... .......... .......... .......... .......... 36%  708K 8s
+  5100K .......... .......... .......... .......... .......... 37% 1.51M 8s
+  5150K .......... .......... .......... .......... .......... 37%  921K 8s
+  5200K .......... .......... .......... .......... .......... 38%  573K 8s
+  5250K .......... .......... .......... .......... .......... 38%  594K 8s
+  5300K .......... .......... .......... .......... .......... 38%  642K 8s
+  5350K .......... .......... .......... .......... .......... 39%  558K 8s
+  5400K .......... .......... .......... .......... .......... 39%  578K 8s
+  5450K .......... .......... .......... .......... .......... 39%  373K 8s
+  5500K .......... .......... .......... .......... .......... 40% 2.52M 8s
+  5550K .......... .......... .......... .......... .......... 40%  661K 8s
+  5600K .......... .......... .......... .......... .......... 40%  280K 8s
+  5650K .......... .......... .......... .......... .......... 41% 25.3M 8s
+  5700K .......... .......... .......... .......... .......... 41%  483K 8s
+  5750K .......... .......... .......... .......... .......... 42%  415K 8s
+  5800K .......... .......... .......... .......... .......... 42%  464K 8s
+  5850K .......... .......... .......... .......... .......... 42%  419K 8s
+  5900K .......... .......... .......... .......... .......... 43%  252K 8s
+  5950K .......... .......... .......... .......... .......... 43% 4.88M 8s
+  6000K .......... .......... .......... .......... .......... 43% 3.31M 8s
+  6050K .......... .......... .......... .......... .......... 44% 1014K 8s
+  6100K .......... .......... .......... .......... .......... 44%  477K 8s
+  6150K .......... .......... .......... .......... .......... 44% 2.60M 8s
+  6200K .......... .......... .......... .......... .......... 45%  673K 8s
+  6250K .......... .......... .......... .......... .......... 45%  741K 8s
+  6300K .......... .......... .......... .......... .......... 46%  735K 8s
+  6350K .......... .......... .......... .......... .......... 46% 1.52M 8s
+  6400K .......... .......... .......... .......... .......... 46% 4.42M 8s
+  6450K .......... .......... .......... .......... .......... 47%  563K 8s
+  6500K .......... .......... .......... .......... .......... 47%  536K 8s
+  6550K .......... .......... .......... .......... .......... 47%  531K 8s
+  6600K .......... .......... .......... .......... .......... 48%  541K 8s
+  6650K .......... .......... .......... .......... .......... 48%  721K 8s
+  6700K .......... .......... .......... .......... .......... 48% 1.48M 8s
+  6750K .......... .......... .......... .......... .......... 49%  612K 8s
+  6800K .......... .......... .......... .......... .......... 49%  537K 8s
+  6850K .......... .......... .......... .......... .......... 49%  593K 8s
+  6900K .......... .......... .......... .......... .......... 50%  846K 8s
+  6950K .......... .......... .......... .......... .......... 50% 2.00M 7s
+  7000K .......... .......... .......... .......... .......... 51%  979K 7s
+  7050K .......... .......... .......... .......... .......... 51%  639K 7s
+  7100K .......... .......... .......... .......... .......... 51%  666K 7s
+  7150K .......... .......... .......... .......... .......... 52%  698K 7s
+  7200K .......... .......... .......... .......... .......... 52%  654K 7s
+  7250K .......... .......... .......... .......... .......... 52%  278K 7s
+  7300K .......... .......... .......... .......... .......... 53% 1.48M 7s
+  7350K .......... .......... .......... .......... .......... 53% 20.8M 7s
+  7400K .......... .......... .......... .......... .......... 53% 2.29M 7s
+  7450K .......... .......... .......... .......... .......... 54% 1.37M 7s
+  7500K .......... .......... .......... .......... .......... 54%  559K 7s
+  7550K .......... .......... .......... .......... .......... 55%  591K 7s
+  7600K .......... .......... .......... .......... .......... 55%  673K 7s
+  7650K .......... .......... .......... .......... .......... 55%  557K 7s
+  7700K .......... .......... .......... .......... .......... 56% 1.03M 7s
+  7750K .......... .......... .......... .......... .......... 56% 1013K 7s
+  7800K .......... .......... .......... .......... .......... 56% 6.55M 7s
+  7850K .......... .......... .......... .......... .......... 57% 1.35M 7s
+  7900K .......... .......... .......... .......... .......... 57%  868K 6s
+  7950K .......... .......... .......... .......... .......... 57% 1.51M 6s
+  8000K .......... .......... .......... .......... .......... 58%  883K 6s
+  8050K .......... .......... .......... .......... .......... 58%  679K 6s
+  8100K .......... .......... .......... .......... .......... 59%  534K 6s
+  8150K .......... .......... .......... .......... .......... 59%  684K 6s
+  8200K .......... .......... .......... .......... .......... 59%  275K 6s
+  8250K .......... .......... .......... .......... .......... 60% 14.5M 6s
+  8300K .......... .......... .......... .......... .......... 60%  434K 6s
+  8350K .......... .......... .......... .......... .......... 60%  493K 6s
+  8400K .......... .......... .......... .......... .......... 61%  520K 6s
+  8450K .......... .......... .......... .......... .......... 61%  609K 6s
+  8500K .......... .......... .......... .......... .......... 61%  552K 6s
+  8550K .......... .......... .......... .......... .......... 62%  558K 6s
+  8600K .......... .......... .......... .......... .......... 62%  698K 6s
+  8650K .......... .......... .......... .......... .......... 63%  697K 6s
+  8700K .......... .......... .......... .......... .......... 63%  542K 6s
+  8750K .......... .......... .......... .......... .......... 63%  600K 6s
+  8800K .......... .......... .......... .......... .......... 64%  343K 6s
+  8850K .......... .......... .......... .......... .......... 64%  336K 6s
+  8900K .......... .......... .......... .......... .......... 64% 1.63M 6s
+  8950K .......... .......... .......... .......... .......... 65%  586K 6s
+  9000K .......... .......... .......... .......... .......... 65%  313K 6s
+  9050K .......... .......... .......... .......... .......... 65% 4.98M 6s
+  9100K .......... .......... .......... .......... .......... 66%  819K 6s
+  9150K .......... .......... .......... .......... .......... 66%  203K 6s
+  9200K .......... .......... .......... .......... .......... 67% 1.21M 5s
+  9250K .......... .......... .......... .......... .......... 67%  357K 5s
+  9300K .......... .......... .......... .......... .......... 67%  314K 5s
+  9350K .......... .......... .......... .......... .......... 68%  974K 5s
+  9400K .......... .......... .......... .......... .......... 68%  581K 5s
+  9450K .......... .......... .......... .......... .......... 68%  504K 5s
+  9500K .......... .......... .......... .......... .......... 69%  220K 5s
+  9550K .......... .......... .......... .......... .......... 69% 26.5M 5s
+  9600K .......... .......... .......... .......... .......... 69%  487K 5s
+  9650K .......... .......... .......... .......... .......... 70%  357K 5s
+  9700K .......... .......... .......... .......... .......... 70%  300K 5s
+  9750K .......... .......... .......... .......... .......... 70%  626K 5s
+  9800K .......... .......... .......... .......... .......... 71%  467K 5s
+  9850K .......... .......... .......... .......... .......... 71%  213K 5s
+  9900K .......... .......... .......... .......... .......... 72%  125K 5s
+  9950K .......... .......... .......... .......... .......... 72%  606K 5s
+ 10000K .......... .......... .......... .......... .......... 72%  403K 5s
+ 10050K .......... .......... .......... .......... .......... 73%  442K 5s
+ 10100K .......... .......... .......... .......... .......... 73%  468K 5s
+ 10150K .......... .......... .......... .......... .......... 73%  221K 5s
+ 10200K .......... .......... .......... .......... .......... 74%  174K 5s
+ 10250K .......... .......... .......... .......... .......... 74% 23.6M 5s
+ 10300K .......... .......... .......... .......... .......... 74% 27.0M 5s
+ 10350K .......... .......... .......... .......... .......... 75% 3.03M 5s
+ 10400K .......... .......... .......... .......... .......... 75%  553K 5s
+ 10450K .......... .......... .......... .......... .......... 76% 2.61M 4s
+ 10500K .......... .......... .......... .......... .......... 76%  806K 4s
+ 10550K .......... .......... .......... .......... .......... 76%  734K 4s
+ 10600K .......... .......... .......... .......... .......... 77%  481K 4s
+ 10650K .......... .......... .......... .......... .......... 77% 3.87M 4s
+ 10700K .......... .......... .......... .......... .......... 77%  890K 4s
+ 10750K .......... .......... .......... .......... .......... 78%  738K 4s
+ 10800K .......... .......... .......... .......... .......... 78% 1.09M 4s
+ 10850K .......... .......... .......... .......... .......... 78%  737K 4s
+ 10900K .......... .......... .......... .......... .......... 79%  610K 4s
+ 10950K .......... .......... .......... .......... .......... 79%  342K 4s
+ 11000K .......... .......... .......... .......... .......... 80%  785K 4s
+ 11050K .......... .......... .......... .......... .......... 80%  476K 4s
+ 11100K .......... .......... .......... .......... .......... 80%  584K 4s
+ 11150K .......... .......... .......... .......... .......... 81%  294K 4s
+ 11200K .......... .......... .......... .......... .......... 81%  743K 3s
+ 11250K .......... .......... .......... .......... .......... 81% 14.4M 3s
+ 11300K .......... .......... .......... .......... .......... 82%  433K 3s
+ 11350K .......... .......... .......... .......... .......... 82%  499K 3s
+ 11400K .......... .......... .......... .......... .......... 82%  252K 3s
+ 11450K .......... .......... .......... .......... .......... 83% 2.78M 3s
+ 11500K .......... .......... .......... .......... .......... 83%  693K 3s
+ 11550K .......... .......... .......... .......... .......... 84%  616K 3s
+ 11600K .......... .......... .......... .......... .......... 84%  566K 3s
+ 11650K .......... .......... .......... .......... .......... 84%  310K 3s
+ 11700K .......... .......... .......... .......... .......... 85% 2.99M 3s
+ 11750K .......... .......... .......... .......... .......... 85%  700K 3s
+ 11800K .......... .......... .......... .......... .......... 85%  729K 3s
+ 11850K .......... .......... .......... .......... .......... 86%  134K 3s
+ 11900K .......... .......... .......... .......... .......... 86% 24.4M 3s
+ 11950K .......... .......... .......... .......... .......... 86% 24.2M 3s
+ 12000K .......... .......... .......... .......... .......... 87% 24.1M 2s
+ 12050K .......... .......... .......... .......... .......... 87% 21.6M 2s
+ 12100K .......... .......... .......... .......... .......... 88%  768K 2s
+ 12150K .......... .......... .......... .......... .......... 88%  796K 2s
+ 12200K .......... .......... .......... .......... .......... 88%  764K 2s
+ 12250K .......... .......... .......... .......... .......... 89%  645K 2s
+ 12300K .......... .......... .......... .......... .......... 89%  392K 2s
+ 12350K .......... .......... .......... .......... .......... 89% 3.43M 2s
+ 12400K .......... .......... .......... .......... .......... 90%  828K 2s
+ 12450K .......... .......... .......... .......... .......... 90%  794K 2s
+ 12500K .......... .......... .......... .......... .......... 90%  323K 2s
+ 12550K .......... .......... .......... .......... .......... 91%  821K 2s
+ 12600K .......... .......... .......... .......... .......... 91% 4.50M 2s
+ 12650K .......... .......... .......... .......... .......... 92% 1.64M 2s
+ 12700K .......... .......... .......... .......... .......... 92% 1.69M 1s
+ 12750K .......... .......... .......... .......... .......... 92% 1.23M 1s
+ 12800K .......... .......... .......... .......... .......... 93% 2.13M 1s
+ 12850K .......... .......... .......... .......... .......... 93% 1.43M 1s
+ 12900K .......... .......... .......... .......... .......... 93%  421K 1s
+ 12950K .......... .......... .......... .......... .......... 94%  380K 1s
+ 13000K .......... .......... .......... .......... .......... 94% 1.12M 1s
+ 13050K .......... .......... .......... .......... .......... 94%  441K 1s
+ 13100K .......... .......... .......... .......... .......... 95%  255K 1s
+ 13150K .......... .......... .......... .......... .......... 95%  407K 1s
+ 13200K .......... .......... .......... .......... .......... 95% 2.31M 1s
+ 13250K .......... .......... .......... .......... .......... 96%  739K 1s
+ 13300K .......... .......... .......... .......... .......... 96%  239K 1s
+ 13350K .......... .......... .......... .......... .......... 97% 1.06M 1s
+ 13400K .......... .......... .......... .......... .......... 97%  861K 0s
+ 13450K .......... .......... .......... .......... .......... 97%  466K 0s
+ 13500K .......... .......... .......... .......... .......... 98%  482K 0s
+ 13550K .......... .......... .......... .......... .......... 98%  611K 0s
+ 13600K .......... .......... .......... .......... .......... 98%  675K 0s
+ 13650K .......... .......... .......... .......... .......... 99%  702K 0s
+ 13700K .......... .......... .......... .......... .......... 99%  770K 0s
+ 13750K .......... .......... .......... .......... .......... 99%  675K 0s
+ 13800K ...                                                   100% 2.79M=19s
+
+2018-11-21 16:13:32 (712 KB/s) - ‘/home/toyonaga/scratch/pipeline/full/full_4200.fits’ saved [14135040/14135040]
+
+[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:32 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A[1M> Initializing catalog
+[1A[1M> Looking for full_4200.fits
+[1A----- Measuring from: full_4200.fits [1/4]
+      "Unnamed" / no ext. header / 1070x1089 / 32 bits (floats)
+Detection+Measurement image: [1M> Setting up background maps
+[1A[1M> Setting up background map at line:  100
+[1A[1M> Setting up background map at line:  200
+[1A[1M> Setting up background map at line:  300
+[1A[1M> Setting up background map at line:  400
+[1A[1M> Setting up background map at line:  500
+[1A[1M> Setting up background map at line:  600
+[1A[1M> Setting up background map at line:  700
+[1A[1M> Setting up background map at line:  800
+[1A[1M> Setting up background map at line:  900
+[1A[1M> Setting up background map at line: 1000
+[1A[1M> Filtering background map(s)
+[1A[1M> Computing background d-map
+[1A[1M> Computing background-noise d-map
+[1A(M+D) Background: -0.00141683 RMS: 0.00663261 / Threshold: 0.0198978  
+[1M> Scanning image
+[1A[1M> Line:   25  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   50  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:   75  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  100  Objects:       14 detected /        0 sextracted
+[1A[1M> Line:  125  Objects:       17 detected /        0 sextracted
+[1A[1M> Line:  150  Objects:       20 detected /        0 sextracted
+[1A[1M> Line:  175  Objects:       30 detected /        0 sextracted
+[1A[1M> Line:  200  Objects:       35 detected /        0 sextracted
+[1A[1M> Line:  225  Objects:       39 detected /        0 sextracted
+[1A[1M> Line:  250  Objects:       41 detected /        0 sextracted
+[1A[1M> Line:  275  Objects:       47 detected /        0 sextracted
+[1A[1M> Line:  300  Objects:       53 detected /        0 sextracted
+[1A[1M> Line:  325  Objects:       55 detected /        0 sextracted
+[1A[1M> Line:  350  Objects:       58 detected /        0 sextracted
+[1A[1M> Line:  375  Objects:       62 detected /        0 sextracted
+[1A[1M> Line:  400  Objects:       66 detected /        0 sextracted
+[1A[1M> Line:  425  Objects:       74 detected /        0 sextracted
+[1A[1M> Line:  450  Objects:       77 detected /        0 sextracted
+[1A[1M> Line:  475  Objects:       82 detected /        0 sextracted
+[1A[1M> Line:  500  Objects:       88 detected /        0 sextracted
+[1A[1M> Line:  525  Objects:       92 detected /        0 sextracted
+[1A[1M> Line:  550  Objects:       95 detected /        0 sextracted
+[1A[1M> Line:  575  Objects:       96 detected /        0 sextracted
+[1A[1M> Line:  600  Objects:      101 detected /        0 sextracted
+[1A[1M> Line:  625  Objects:      108 detected /        0 sextracted
+[1A[1M> Line:  650  Objects:      113 detected /        0 sextracted
+[1A[1M> Line:  675  Objects:      116 detected /        0 sextracted
+[1A[1M> Line:  700  Objects:      125 detected /        0 sextracted
+[1A[1M> Line:  725  Objects:      131 detected /        0 sextracted
+[1A[1M> Line:  750  Objects:      132 detected /        0 sextracted
+[1A[1M> Line:  775  Objects:      137 detected /        0 sextracted
+[1A[1M> Line:  800  Objects:      144 detected /        0 sextracted
+[1A[1M> Line:  825  Objects:      148 detected /        0 sextracted
+[1A[1M> Line:  850  Objects:      153 detected /        0 sextracted
+[1A[1M> Line:  875  Objects:      158 detected /        0 sextracted
+[1A[1M> Line:  900  Objects:      164 detected /        0 sextracted
+[1A[1M> Line:  925  Objects:      168 detected /        0 sextracted
+[1A[1M> Line:  950  Objects:      179 detected /        0 sextracted
+[1A[1M> Line:  975  Objects:      185 detected /        0 sextracted
+[1A[1M> Line: 1000  Objects:      193 detected /        0 sextracted
+[1A[1M> Line: 1019  Objects:      197 detected /        0 sextracted
+[1A[1M> Line: 1025  Objects:      198 detected /        6 sextracted
+[1A[1M> Line: 1050  Objects:      202 detected /       10 sextracted
+[1A[1M> Line: 1075  Objects:      205 detected /       12 sextracted
+[1A      Objects: detected 208      / sextracted 191             
+
+[1M> Looking for full_4200.fits
+[1A----- Measuring from: full_4200.fits [2/4]
+      "Unnamed" / no ext. header / 1070x1089 / 32 bits (floats)
+Detection+Measurement image: [1M> Setting up background maps
+[1A[1M> Setting up background map at line:  100
+[1A[1M> Setting up background map at line:  200
+[1A[1M> Setting up background map at line:  300
+[1A[1M> Setting up background map at line:  400
+[1A[1M> Setting up background map at line:  500
+[1A[1M> Setting up background map at line:  600
+[1A[1M> Setting up background map at line:  700
+[1A[1M> Setting up background map at line:  800
+[1A[1M> Setting up background map at line:  900
+[1A[1M> Setting up background map at line: 1000
+[1A[1M> Filtering background map(s)
+[1A[1M> Computing background d-map
+[1A[1M> Computing background-noise d-map
+[1A(M+D) Background: 2413.12    RMS: 2.65859    / Threshold: 7.97577    
+[1M> Scanning image
+[1A[1M> Line:   25  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   50  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:   75  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  100  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  125  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  150  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  175  Objects:       10 detected /        0 sextracted
+[1A[1M> Line:  200  Objects:       10 detected /        0 sextracted
+[1A[1M> Line:  225  Objects:       10 detected /        0 sextracted
+[1A[1M> Line:  250  Objects:       10 detected /        0 sextracted
+[1A[1M> Line:  275  Objects:       19 detected /        0 sextracted
+[1A[1M> Line:  300  Objects:       27 detected /        0 sextracted
+[1A[1M> Line:  325  Objects:       43 detected /        0 sextracted
+[1A[1M> Line:  350  Objects:       81 detected /        0 sextracted
+[1A[1M> Line:  375  Objects:       81 detected /        0 sextracted
+[1A[1M> Line:  400  Objects:       81 detected /        0 sextracted
+[1A[1M> Line:  425  Objects:       82 detected /        0 sextracted
+[1A[1M> Line:  450  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  475  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  500  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  525  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  550  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  575  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  600  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  625  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  650  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  675  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  700  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  725  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  750  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  775  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  800  Objects:       84 detected /        0 sextracted
+[1A[1M> Line:  825  Objects:       87 detected /        0 sextracted
+[1A[1M> Line:  850  Objects:       88 detected /        0 sextracted
+[1A[1M> Line:  875  Objects:       89 detected /        0 sextracted
+[1A[1M> Line:  900  Objects:       89 detected /        0 sextracted
+[1A[1M> Line:  925  Objects:       89 detected /        0 sextracted
+[1A[1M> Line:  950  Objects:       89 detected /        0 sextracted
+[1A[1M> Line:  975  Objects:       90 detected /        0 sextracted
+[1A[1M> Line: 1000  Objects:       90 detected /        0 sextracted
+[1A[1M> Line: 1019  Objects:       90 detected /        0 sextracted
+[1A[1M> Line: 1025  Objects:       90 detected /       11 sextracted
+[1A[1M> Line: 1050  Objects:       90 detected /       12 sextracted
+[1A[1M> Line: 1075  Objects:       93 detected /       12 sextracted
+[1A      Objects: detected 99       / sextracted 89              
+
+[1M> Looking for full_4200.fits
+[1A----- Measuring from: full_4200.fits [3/4]
+      "Unnamed" / no ext. header / 1070x1089 / 32 bits (integers)
+Detection+Measurement image: [1M> Setting up background maps
+[1A[1M> Setting up background map at line:  100
+[1A[1M> Setting up background map at line:  200
+[1A[1M> Setting up background map at line:  300
+[1A[1M> Setting up background map at line:  400
+[1A[1M> Setting up background map at line:  500
+[1A[1M> Setting up background map at line:  600
+[1A[1M> Setting up background map at line:  700
+[1A[1M> Setting up background map at line:  800
+[1A[1M> Setting up background map at line:  900
+[1A[1M> Setting up background map at line: 1000
+[1A[1M> Filtering background map(s)
+[1A[1M> Computing background d-map
+[1A[1M> Computing background-noise d-map
+[1A(M+D) Background: 15         RMS: 5.43617    / Threshold: 16.3085    
+[1M> Scanning image
+[1A[1M> Line:   25  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   50  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   75  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  100  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  125  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  150  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  175  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  200  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  225  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  250  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  275  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  300  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  325  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  350  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  375  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  400  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  425  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  450  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  475  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  500  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  525  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  550  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  575  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  600  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  625  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  650  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  675  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  700  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  725  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  750  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  775  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  800  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  825  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  850  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  875  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  900  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  925  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  950  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  975  Objects:        0 detected /        0 sextracted
+[1A[1M> Line: 1000  Objects:        0 detected /        0 sextracted
+[1A[1M> Line: 1025  Objects:        0 detected /        0 sextracted
+[1A[1M> Line: 1050  Objects:        0 detected /        0 sextracted
+[1A[1M> Line: 1075  Objects:        0 detected /        0 sextracted
+[1A      Objects: detected 0        / sextracted 0               
+
+[1M> Closing files
+[1A[1M> 
+[1A> All done (in 0.5 s: 2137.6 lines/s , 0.0 detection/s)
+failed: 0
+Using TensorFlow backend.
+start_point2018-11-21 16:13:41.193920: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 
+run_predictions_2.py:138: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  out['prb'][prediction] = predictions[prediction]
+building resnet16 
+(?, 1, 100, 100)
+ resnet16
+pre- resnet block entered!
+resnet16 blocks
+kernel= 5
+shorcut (?, 32, 50, 50) net (?, 32, 50, 50)
+pre- resnet block entered!
+resnet16 blocks
+kernel= 3
+shorcut (?, 32, 25, 25) net (?, 32, 25, 25)
+pre- resnet block entered!
+resnet16 blocks
+kernel= 3
+shorcut (?, 64, 12, 12) net (?, 64, 12, 12)
+pre- resnet block entered!
+resnet16 blocks
+kernel= 3
+shorcut (?, 64, 6, 6) net (?, 64, 6, 6)
+pre- resnet block entered!
+resnet16 blocks
+kernel= 3
+shorcut (?, 128, 3, 3) net (?, 128, 3, 3)
+pre- resnet block entered!
+resnet16 blocks
+kernel= 3
+shorcut (?, 128, 1, 1) net (?, 128, 1, 1)
+runtime: 7.672758340835571
+...Generating Predictions ...
+223
+out csv len223predictions len223
+REMOVAL SUCCESSFUL
+starting point--2018-11-21 16:16:21--  http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MAST/HST/product/j95w02020_drz.fits
+Resolving www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)... 132.246.217.4, 132.246.217.6, 132.246.217.7, ...
+Connecting to www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)|132.246.217.4|:80... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: http://ws-uv.canfar.net/transfer/bmVpZ2g9VVZJQyZzaWdleHA9MjAxODExMjIwMDMxMjEmYXJjPU1BU1QmaWQ9MGQzMDIyZDllNTBiNDU3YjdmNjIxMDY5OTYzMzIyMDNjOWQ1OWI3N2VkNTM3OGU1NWQxNGRjYzU4NDBiMGI4Mjg2MDk4OTg2ZTBmY2RiZjFlODg5YzM3M2VjZjc2MTQyMGMzYTQ2Mjg3MWZkNWRlMGI5NmM5MzU2NjQyMzA3MmEmdXNlcj1hbm9uVXNlciZucz1IU1QlMkZwcm9kdWN0Jm1ldGg9Z2V0JmF1dGhDb2RlPTAmdXJsPWh0dHAlM0ElMkYlMkZzdG9yLXV2LTAzLmNhbmZhci5uZXQlM0E4ODg4JTJGYXJjaGl2ZSUyRmMxZTVlZWQwJTJGMTg2MyUyRm1hc3QlMkZkZWZhdWx0JTJGMDAlMkYyNCUyRjIxJTJGMGQzMDIyZDllNTBiNDU3YjdmNjIxMDY5OTYzMzIyMDNjOWQ1OWI3N2VkNTM3OGU1NWQxNGRjYzU4NDBiMGI4Mjg2MDk4OTg2ZTBmY2RiZjFlODg5YzM3M2VjZjc2MTQyMGMzYTQ2Mjg3MWZkNWRlMGI5NmM5MzU2NjQyMzA3MmElMjUzQiUyNTNCMjQ1NTAxOTcmc2VydmljZVVybD1odHRwJTNBJTJGJTJGd3d3LmNhZGMtY2NkYS5oaWEtaWhhLm5yYy1jbnJjLmdjLmNhJTJGZGF0YSUyRnB1YiUyRk1BU1QlMkZIU1QlMkZwcm9kdWN0JTJGajk1dzAyMDIwX2Ryei5maXRz-ZmlkPWo5NXcwMjAyMF9kcnouZml0cyZjbG49MTM0MjY1NjAmY21kPTk1OTE0ZDJhZGI3YTRhMjA5NTRhZDYyOGU2NjczZTNhJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1MzkwNzEwNjMwMDAmdWxuPTEzNDI2NTYwJnVtZD05NTkxNGQyYWRiN2E0YTIwOTU0YWQ2MjhlNjY3M2UzYQ==-2129f9ec162f8a97ebd92c548ce73b60/j95w02020_drz.fits [following]
+--2018-11-21 16:16:21--  http://ws-uv.canfar.net/transfer/bmVpZ2g9VVZJQyZzaWdleHA9MjAxODExMjIwMDMxMjEmYXJjPU1BU1QmaWQ9MGQzMDIyZDllNTBiNDU3YjdmNjIxMDY5OTYzMzIyMDNjOWQ1OWI3N2VkNTM3OGU1NWQxNGRjYzU4NDBiMGI4Mjg2MDk4OTg2ZTBmY2RiZjFlODg5YzM3M2VjZjc2MTQyMGMzYTQ2Mjg3MWZkNWRlMGI5NmM5MzU2NjQyMzA3MmEmdXNlcj1hbm9uVXNlciZucz1IU1QlMkZwcm9kdWN0Jm1ldGg9Z2V0JmF1dGhDb2RlPTAmdXJsPWh0dHAlM0ElMkYlMkZzdG9yLXV2LTAzLmNhbmZhci5uZXQlM0E4ODg4JTJGYXJjaGl2ZSUyRmMxZTVlZWQwJTJGMTg2MyUyRm1hc3QlMkZkZWZhdWx0JTJGMDAlMkYyNCUyRjIxJTJGMGQzMDIyZDllNTBiNDU3YjdmNjIxMDY5OTYzMzIyMDNjOWQ1OWI3N2VkNTM3OGU1NWQxNGRjYzU4NDBiMGI4Mjg2MDk4OTg2ZTBmY2RiZjFlODg5YzM3M2VjZjc2MTQyMGMzYTQ2Mjg3MWZkNWRlMGI5NmM5MzU2NjQyMzA3MmElMjUzQiUyNTNCMjQ1NTAxOTcmc2VydmljZVVybD1odHRwJTNBJTJGJTJGd3d3LmNhZGMtY2NkYS5oaWEtaWhhLm5yYy1jbnJjLmdjLmNhJTJGZGF0YSUyRnB1YiUyRk1BU1QlMkZIU1QlMkZwcm9kdWN0JTJGajk1dzAyMDIwX2Ryei5maXRz-ZmlkPWo5NXcwMjAyMF9kcnouZml0cyZjbG49MTM0MjY1NjAmY21kPTk1OTE0ZDJhZGI3YTRhMjA5NTRhZDYyOGU2NjczZTNhJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1MzkwNzEwNjMwMDAmdWxuPTEzNDI2NTYwJnVtZD05NTkxNGQyYWRiN2E0YTIwOTU0YWQ2MjhlNjY3M2UzYQ==-2129f9ec162f8a97ebd92c548ce73b60/j95w02020_drz.fits
+Resolving ws-uv.canfar.net (ws-uv.canfar.net)... 206.12.48.219
+Connecting to ws-uv.canfar.net (ws-uv.canfar.net)|206.12.48.219|:80... connected.
+HTTP request sent, awaiting response... 200 
+Length: 13426560 (13M) [image/fits]
+Saving to: ‘/home/toyonaga/scratch/pipeline/full/full_4201.fits’
+
+     0K .......... .......... .......... .......... ..........  0% 11.9M 1s
+    50K .......... .......... .......... .......... ..........  0% 1.74M 4s
+   100K .......... .......... .......... .......... ..........  1% 11.6M 3s
+   150K .......... .......... .......... .......... ..........  1% 10.9M 3s
+   200K .......... .......... .......... .......... ..........  1% 10.8M 2s
+   250K .......... .......... .......... .......... ..........  2% 14.7M 2s
+   300K .......... .......... .......... .......... ..........  2% 16.0M 2s
+   350K .......... .......... .......... .......... ..........  3% 12.2M 2s
+   400K .......... .......... .......... .......... ..........  3% 17.8M 2s
+   450K .......... .......... .......... .......... ..........  3% 16.7M 2s
+   500K .......... .......... .......... .......... ..........  4% 13.0M 1s
+   550K .......... .......... .......... .......... ..........  4% 16.8M 1s
+   600K .......... .......... .......... .......... ..........  4% 18.4M 1s
+   650K .......... .......... .......... .......... ..........  5% 17.0M 1s
+   700K .......... .......... .......... .......... ..........  5% 18.4M 1s
+   750K .......... .......... .......... .......... ..........  6% 16.3M 1s
+   800K .......... .......... .......... .......... ..........  6% 20.7M 1s
+   850K .......... .......... .......... .......... ..........  6% 17.8M 1s
+   900K .......... .......... .......... .......... ..........  7% 12.8M 1s
+   950K .......... .......... .......... .......... ..........  7% 15.2M 1s
+  1000K .......... .......... .......... .......... ..........  8% 20.5M 1s
+  1050K .......... .......... .......... .......... ..........  8% 20.1M 1s
+  1100K .......... .......... .......... .......... ..........  8% 21.4M 1s
+  1150K .......... .......... .......... .......... ..........  9% 31.8M 1s
+  1200K .......... .......... .......... .......... ..........  9% 23.8M 1s
+  1250K .......... .......... .......... .......... ..........  9% 23.2M 1s
+  1300K .......... .......... .......... .......... .......... 10% 24.2M 1s
+  1350K .......... .......... .......... .......... .......... 10% 30.9M 1s
+  1400K .......... .......... .......... .......... .......... 11% 21.4M 1s
+  1450K .......... .......... .......... .......... .......... 11% 25.6M 1s
+  1500K .......... .......... .......... .......... .......... 11% 33.3M 1s
+  1550K .......... .......... .......... .......... .......... 12% 22.4M 1s
+  1600K .......... .......... .......... .......... .......... 12% 25.4M 1s
+  1650K .......... .......... .......... .......... .......... 12% 24.6M 1s
+  1700K .......... .......... .......... .......... .......... 13% 25.1M 1s
+  1750K .......... .......... .......... .......... .......... 13% 36.7M 1s
+  1800K .......... .......... .......... .......... .......... 14% 28.1M 1s
+  1850K .......... .......... .......... .......... .......... 14% 24.9M 1s
+  1900K .......... .......... .......... .......... .......... 14% 24.2M 1s
+  1950K .......... .......... .......... .......... .......... 15% 41.2M 1s
+  2000K .......... .......... .......... .......... .......... 15% 23.7M 1s
+  2050K .......... .......... .......... .......... .......... 16% 25.8M 1s
+  2100K .......... .......... .......... .......... .......... 16% 24.8M 1s
+  2150K .......... .......... .......... .......... .......... 16% 40.5M 1s
+  2200K .......... .......... .......... .......... .......... 17% 32.4M 1s
+  2250K .......... .......... .......... .......... .......... 17% 50.3M 1s
+  2300K .......... .......... .......... .......... .......... 17% 27.4M 1s
+  2350K .......... .......... .......... .......... .......... 18% 50.6M 1s
+  2400K .......... .......... .......... .......... .......... 18% 32.6M 1s
+  2450K .......... .......... .......... .......... .......... 19% 50.7M 1s
+  2500K .......... .......... .......... .......... .......... 19% 28.9M 1s
+  2550K .......... .......... .......... .......... .......... 19% 50.6M 1s
+  2600K .......... .......... .......... .......... .......... 20% 36.6M 1s
+  2650K .......... .......... .......... .......... .......... 20% 44.0M 1s
+  2700K .......... .......... .......... .......... .......... 20% 28.9M 1s
+  2750K .......... .......... .......... .......... .......... 21% 49.7M 1s
+  2800K .......... .......... .......... .......... .......... 21% 35.4M 1s
+  2850K .......... .......... .......... .......... .......... 22% 31.7M 1s
+  2900K .......... .......... .......... .......... .......... 22% 49.8M 1s
+  2950K .......... .......... .......... .......... .......... 22% 40.2M 1s
+  3000K .......... .......... .......... .......... .......... 23% 41.7M 1s
+  3050K .......... .......... .......... .......... .......... 23% 34.1M 1s
+  3100K .......... .......... .......... .......... .......... 24% 48.6M 1s
+  3150K .......... .......... .......... .......... .......... 24% 40.0M 1s
+  3200K .......... .......... .......... .......... .......... 24% 47.0M 0s
+  3250K .......... .......... .......... .......... .......... 25% 30.6M 0s
+  3300K .......... .......... .......... .......... .......... 25% 49.5M 0s
+  3350K .......... .......... .......... .......... .......... 25% 54.2M 0s
+  3400K .......... .......... .......... .......... .......... 26% 39.2M 0s
+  3450K .......... .......... .......... .......... .......... 26% 50.4M 0s
+  3500K .......... .......... .......... .......... .......... 27% 52.6M 0s
+  3550K .......... .......... .......... .......... .......... 27% 42.8M 0s
+  3600K .......... .......... .......... .......... .......... 27% 54.1M 0s
+  3650K .......... .......... .......... .......... .......... 28% 51.0M 0s
+  3700K .......... .......... .......... .......... .......... 28% 44.3M 0s
+  3750K .......... .......... .......... .......... .......... 28% 50.8M 0s
+  3800K .......... .......... .......... .......... .......... 29% 48.9M 0s
+  3850K .......... .......... .......... .......... .......... 29% 52.8M 0s
+  3900K .......... .......... .......... .......... .......... 30% 43.5M 0s
+  3950K .......... .......... .......... .......... .......... 30% 50.1M 0s
+  4000K .......... .......... .......... .......... .......... 30% 50.6M 0s
+  4050K .......... .......... .......... .......... .......... 31% 48.6M 0s
+  4100K .......... .......... .......... .......... .......... 31% 45.3M 0s
+  4150K .......... .......... .......... .......... .......... 32% 49.4M 0s
+  4200K .......... .......... .......... .......... .......... 32% 49.7M 0s
+  4250K .......... .......... .......... .......... .......... 32% 50.0M 0s
+  4300K .......... .......... .......... .......... .......... 33% 43.3M 0s
+  4350K .......... .......... .......... .......... .......... 33% 52.5M 0s
+  4400K .......... .......... .......... .......... .......... 33% 49.9M 0s
+  4450K .......... .......... .......... .......... .......... 34% 48.7M 0s
+  4500K .......... .......... .......... .......... .......... 34% 43.3M 0s
+  4550K .......... .......... .......... .......... .......... 35% 49.7M 0s
+  4600K .......... .......... .......... .......... .......... 35% 50.8M 0s
+  4650K .......... .......... .......... .......... .......... 35% 51.5M 0s
+  4700K .......... .......... .......... .......... .......... 36% 43.7M 0s
+  4750K .......... .......... .......... .......... .......... 36% 49.4M 0s
+  4800K .......... .......... .......... .......... .......... 36% 50.1M 0s
+  4850K .......... .......... .......... .......... .......... 37% 50.6M 0s
+  4900K .......... .......... .......... .......... .......... 37% 44.4M 0s
+  4950K .......... .......... .......... .......... .......... 38% 50.5M 0s
+  5000K .......... .......... .......... .......... .......... 38% 49.2M 0s
+  5050K .......... .......... .......... .......... .......... 38% 49.2M 0s
+  5100K .......... .......... .......... .......... .......... 39% 43.7M 0s
+  5150K .......... .......... .......... .......... .......... 39% 50.2M 0s
+  5200K .......... .......... .......... .......... .......... 40% 50.4M 0s
+  5250K .......... .......... .......... .......... .......... 40% 51.0M 0s
+  5300K .......... .......... .......... .......... .......... 40% 44.0M 0s
+  5350K .......... .......... .......... .......... .......... 41% 49.1M 0s
+  5400K .......... .......... .......... .......... .......... 41% 47.9M 0s
+  5450K .......... .......... .......... .......... .......... 41% 50.0M 0s
+  5500K .......... .......... .......... .......... .......... 42% 43.1M 0s
+  5550K .......... .......... .......... .......... .......... 42% 48.3M 0s
+  5600K .......... .......... .......... .......... .......... 43% 49.9M 0s
+  5650K .......... .......... .......... .......... .......... 43% 50.4M 0s
+  5700K .......... .......... .......... .......... .......... 43% 42.8M 0s
+  5750K .......... .......... .......... .......... .......... 44% 51.9M 0s
+  5800K .......... .......... .......... .......... .......... 44% 50.0M 0s
+  5850K .......... .......... .......... .......... .......... 44% 51.7M 0s
+  5900K .......... .......... .......... .......... .......... 45% 44.3M 0s
+  5950K .......... .......... .......... .......... .......... 45% 50.1M 0s
+  6000K .......... .......... .......... .......... .......... 46% 51.9M 0s
+  6050K .......... .......... .......... .......... .......... 46% 50.3M 0s
+  6100K .......... .......... .......... .......... .......... 46% 45.2M 0s
+  6150K .......... .......... .......... .......... .......... 47% 50.8M 0s
+  6200K .......... .......... .......... .......... .......... 47% 49.7M 0s
+  6250K .......... .......... .......... .......... .......... 48% 50.7M 0s
+  6300K .......... .......... .......... .......... .......... 48% 44.4M 0s
+  6350K .......... .......... .......... .......... .......... 48% 51.1M 0s
+  6400K .......... .......... .......... .......... .......... 49% 50.8M 0s
+  6450K .......... .......... .......... .......... .......... 49% 49.9M 0s
+  6500K .......... .......... .......... .......... .......... 49% 44.1M 0s
+  6550K .......... .......... .......... .......... .......... 50% 51.1M 0s
+  6600K .......... .......... .......... .......... .......... 50% 50.6M 0s
+  6650K .......... .......... .......... .......... .......... 51% 49.8M 0s
+  6700K .......... .......... .......... .......... .......... 51% 43.9M 0s
+  6750K .......... .......... .......... .......... .......... 51% 50.8M 0s
+  6800K .......... .......... .......... .......... .......... 52% 52.2M 0s
+  6850K .......... .......... .......... .......... .......... 52% 48.9M 0s
+  6900K .......... .......... .......... .......... .......... 53% 43.6M 0s
+  6950K .......... .......... .......... .......... .......... 53% 50.7M 0s
+  7000K .......... .......... .......... .......... .......... 53% 50.5M 0s
+  7050K .......... .......... .......... .......... .......... 54% 51.6M 0s
+  7100K .......... .......... .......... .......... .......... 54% 43.4M 0s
+  7150K .......... .......... .......... .......... .......... 54% 49.8M 0s
+  7200K .......... .......... .......... .......... .......... 55% 50.3M 0s
+  7250K .......... .......... .......... .......... .......... 55% 52.6M 0s
+  7300K .......... .......... .......... .......... .......... 56% 43.1M 0s
+  7350K .......... .......... .......... .......... .......... 56% 50.1M 0s
+  7400K .......... .......... .......... .......... .......... 56% 49.9M 0s
+  7450K .......... .......... .......... .......... .......... 57% 50.2M 0s
+  7500K .......... .......... .......... .......... .......... 57% 45.5M 0s
+  7550K .......... .......... .......... .......... .......... 57% 50.6M 0s
+  7600K .......... .......... .......... .......... .......... 58% 48.4M 0s
+  7650K .......... .......... .......... .......... .......... 58% 51.1M 0s
+  7700K .......... .......... .......... .......... .......... 59% 43.8M 0s
+  7750K .......... .......... .......... .......... .......... 59% 52.6M 0s
+  7800K .......... .......... .......... .......... .......... 59% 49.9M 0s
+  7850K .......... .......... .......... .......... .......... 60% 50.0M 0s
+  7900K .......... .......... .......... .......... .......... 60% 45.7M 0s
+  7950K .......... .......... .......... .......... .......... 61% 49.2M 0s
+  8000K .......... .......... .......... .......... .......... 61% 51.6M 0s
+  8050K .......... .......... .......... .......... .......... 61% 49.5M 0s
+  8100K .......... .......... .......... .......... .......... 62% 43.0M 0s
+  8150K .......... .......... .......... .......... .......... 62% 50.0M 0s
+  8200K .......... .......... .......... .......... .......... 62% 50.8M 0s
+  8250K .......... .......... .......... .......... .......... 63% 50.6M 0s
+  8300K .......... .......... .......... .......... .......... 63% 43.7M 0s
+  8350K .......... .......... .......... .......... .......... 64% 49.5M 0s
+  8400K .......... .......... .......... .......... .......... 64% 51.0M 0s
+  8450K .......... .......... .......... .......... .......... 64% 50.3M 0s
+  8500K .......... .......... .......... .......... .......... 65% 44.3M 0s
+  8550K .......... .......... .......... .......... .......... 65% 49.4M 0s
+  8600K .......... .......... .......... .......... .......... 65% 49.7M 0s
+  8650K .......... .......... .......... .......... .......... 66% 51.7M 0s
+  8700K .......... .......... .......... .......... .......... 66% 43.8M 0s
+  8750K .......... .......... .......... .......... .......... 67% 50.7M 0s
+  8800K .......... .......... .......... .......... .......... 67% 50.2M 0s
+  8850K .......... .......... .......... .......... .......... 67% 49.7M 0s
+  8900K .......... .......... .......... .......... .......... 68% 45.0M 0s
+  8950K .......... .......... .......... .......... .......... 68% 49.7M 0s
+  9000K .......... .......... .......... .......... .......... 69% 49.8M 0s
+  9050K .......... .......... .......... .......... .......... 69% 50.4M 0s
+  9100K .......... .......... .......... .......... .......... 69% 43.4M 0s
+  9150K .......... .......... .......... .......... .......... 70% 50.8M 0s
+  9200K .......... .......... .......... .......... .......... 70% 50.4M 0s
+  9250K .......... .......... .......... .......... .......... 70% 49.1M 0s
+  9300K .......... .......... .......... .......... .......... 71% 43.7M 0s
+  9350K .......... .......... .......... .......... .......... 71% 50.5M 0s
+  9400K .......... .......... .......... .......... .......... 72% 52.4M 0s
+  9450K .......... .......... .......... .......... .......... 72% 50.0M 0s
+  9500K .......... .......... .......... .......... .......... 72% 44.3M 0s
+  9550K .......... .......... .......... .......... .......... 73% 49.4M 0s
+  9600K .......... .......... .......... .......... .......... 73% 50.9M 0s
+  9650K .......... .......... .......... .......... .......... 73% 50.8M 0s
+  9700K .......... .......... .......... .......... .......... 74% 43.5M 0s
+  9750K .......... .......... .......... .......... .......... 74% 49.3M 0s
+  9800K .......... .......... .......... .......... .......... 75% 51.6M 0s
+  9850K .......... .......... .......... .......... .......... 75% 50.4M 0s
+  9900K .......... .......... .......... .......... .......... 75% 43.6M 0s
+  9950K .......... .......... .......... .......... .......... 76% 48.6M 0s
+ 10000K .......... .......... .......... .......... .......... 76% 49.4M 0s
+ 10050K .......... .......... .......... .......... .......... 77% 49.4M 0s
+ 10100K .......... .......... .......... .......... .......... 77% 44.6M 0s
+ 10150K .......... .......... .......... .......... .......... 77% 50.5M 0s
+ 10200K .......... .......... .......... .......... .......... 78% 49.4M 0s
+ 10250K .......... .......... .......... .......... .......... 78% 49.3M 0s
+ 10300K .......... .......... .......... .......... .......... 78% 44.3M 0s
+ 10350K .......... .......... .......... .......... .......... 79% 51.1M 0s
+ 10400K .......... .......... .......... .......... .......... 79% 50.0M 0s
+ 10450K .......... .......... .......... .......... .......... 80% 49.2M 0s
+ 10500K .......... .......... .......... .......... .......... 80% 43.7M 0s
+ 10550K .......... .......... .......... .......... .......... 80% 50.9M 0s
+ 10600K .......... .......... .......... .......... .......... 81% 50.8M 0s
+ 10650K .......... .......... .......... .......... .......... 81% 49.9M 0s
+ 10700K .......... .......... .......... .......... .......... 81% 43.5M 0s
+ 10750K .......... .......... .......... .......... .......... 82% 50.3M 0s
+ 10800K .......... .......... .......... .......... .......... 82% 51.6M 0s
+ 10850K .......... .......... .......... .......... .......... 83% 49.8M 0s
+ 10900K .......... .......... .......... .......... .......... 83% 43.7M 0s
+ 10950K .......... .......... .......... .......... .......... 83% 51.0M 0s
+ 11000K .......... .......... .......... .......... .......... 84% 48.9M 0s
+ 11050K .......... .......... .......... .......... .......... 84% 53.3M 0s
+ 11100K .......... .......... .......... .......... .......... 85% 43.2M 0s
+ 11150K .......... .......... .......... .......... .......... 85% 49.3M 0s
+ 11200K .......... .......... .......... .......... .......... 85% 50.4M 0s
+ 11250K .......... .......... .......... .......... .......... 86% 52.0M 0s
+ 11300K .......... .......... .......... .......... .......... 86% 44.0M 0s
+ 11350K .......... .......... .......... .......... .......... 86% 49.0M 0s
+ 11400K .......... .......... .......... .......... .......... 87% 50.6M 0s
+ 11450K .......... .......... .......... .......... .......... 87% 49.6M 0s
+ 11500K .......... .......... .......... .......... .......... 88% 45.4M 0s
+ 11550K .......... .......... .......... .......... .......... 88% 49.2M 0s
+ 11600K .......... .......... .......... .......... .......... 88% 49.1M 0s
+ 11650K .......... .......... .......... .......... .......... 89% 51.5M 0s
+ 11700K .......... .......... .......... .......... .......... 89% 43.7M 0s
+ 11750K .......... .......... .......... .......... .......... 89% 51.4M 0s
+ 11800K .......... .......... .......... .......... .......... 90% 49.6M 0s
+ 11850K .......... .......... .......... .......... .......... 90% 49.3M 0s
+ 11900K .......... .......... .......... .......... .......... 91% 45.5M 0s
+ 11950K .......... .......... .......... .......... .......... 91% 49.7M 0s
+ 12000K .......... .......... .......... .......... .......... 91% 51.4M 0s
+ 12050K .......... .......... .......... .......... .......... 92% 49.9M 0s
+ 12100K .......... .......... .......... .......... .......... 92% 44.1M 0s
+ 12150K .......... .......... .......... .......... .......... 93% 51.4M 0s
+ 12200K .......... .......... .......... .......... .......... 93% 50.2M 0s
+ 12250K .......... .......... .......... .......... .......... 93% 49.3M 0s
+ 12300K .......... .......... .......... .......... .......... 94% 43.5M 0s
+ 12350K .......... .......... .......... .......... .......... 94% 51.2M 0s
+ 12400K .......... .......... .......... .......... .......... 94% 50.2M 0s
+ 12450K .......... .......... .......... .......... .......... 95% 50.2M 0s
+ 12500K .......... .......... .......... .......... .......... 95% 43.1M 0s
+ 12550K .......... .......... .......... .......... .......... 96% 51.1M 0s
+ 12600K .......... .......... .......... .......... .......... 96% 52.4M 0s
+ 12650K .......... .......... .......... .......... .......... 96% 49.9M 0s
+ 12700K .......... .......... .......... .......... .......... 97% 42.9M 0s
+ 12750K .......... .......... .......... .......... .......... 97% 48.9M 0s
+ 12800K .......... .......... .......... .......... .......... 98% 51.2M 0s
+ 12850K .......... .......... .......... .......... .......... 98% 53.0M 0s
+ 12900K .......... .......... .......... .......... .......... 98% 47.0M 0s
+ 12950K .......... .......... .......... .......... .......... 99% 54.1M 0s
+ 13000K .......... .......... .......... .......... .......... 99% 53.5M 0s
+ 13050K .......... .......... .......... .......... .......... 99% 53.3M 0s
+ 13100K .......... .                                          100% 35.4M=0.4s
+
+2018-11-21 16:16:21 (35.4 MB/s) - ‘/home/toyonaga/scratch/pipeline/full/full_4201.fits’ saved [13426560/13426560]
+
+[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:16:21 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A[1M> Initializing catalog
+[1A[1M> Looking for full_4201.fits
+[1A----- Measuring from: full_4201.fits [1/4]
+      "Unnamed" / no ext. header / 1070x1034 / 32 bits (floats)
+Detection+Measurement image: [1M> Setting up background maps
+[1A[1M> Setting up background map at line:  100
+[1A[1M> Setting up background map at line:  200
+[1A[1M> Setting up background map at line:  300
+[1A[1M> Setting up background map at line:  400
+[1A[1M> Setting up background map at line:  500
+[1A[1M> Setting up background map at line:  600
+[1A[1M> Setting up background map at line:  700
+[1A[1M> Setting up background map at line:  800
+[1A[1M> Setting up background map at line:  900
+[1A[1M> Setting up background map at line: 1000
+[1A[1M> Filtering background map(s)
+[1A[1M> Computing background d-map
+[1A[1M> Computing background-noise d-map
+[1A(M+D) Background: -0.00194825 RMS: 0.0624706  / Threshold: 0.187412   
+[1M> Scanning image
+[1A[1M> Line:   25  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   50  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   75  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  100  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  125  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  150  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  175  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  200  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  225  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  250  Objects:        1 detected /        0 sextracted
+[1A[1M> Line:  275  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  300  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  325  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  350  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  375  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  400  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  425  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  450  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  475  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  500  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  525  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:  550  Objects:        3 detected /        0 sextracted
+[1A[1M> Line:  575  Objects:        3 detected /        0 sextracted
+[1A[1M> Line:  600  Objects:        3 detected /        0 sextracted
+[1A[1M> Line:  625  Objects:        3 detected /        0 sextracted
+[1A[1M> Line:  650  Objects:        4 detected /        0 sextracted
+[1A[1M> Line:  675  Objects:        5 detected /        0 sextracted
+[1A[1M> Line:  700  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  725  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  750  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  775  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  800  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  825  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  850  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  875  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  900  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  925  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  950  Objects:        6 detected /        0 sextracted
+[1A[1M> Line:  975  Objects:        6 detected /        0 sextracted
+[1A[1M> Line: 1000  Objects:        6 detected /        0 sextracted
+[1A[1M> Line: 1025  Objects:        6 detected /        0 sextracted
+[1A[1M> Line: 1034  Objects:        7 detected /        0 sextracted
+[1A      Objects: detected 7        / sextracted 5               
+
+[1M> Looking for full_4201.fits
+[1A----- Measuring from: full_4201.fits [2/4]
+      "Unnamed" / no ext. header / 1070x1034 / 32 bits (floats)
+Detection+Measurement image: [1M> Setting up background maps
+[1A[1M> Setting up background map at line:  100
+[1A[1M> Setting up background map at line:  200
+[1A[1M> Setting up background map at line:  300
+[1A[1M> Setting up background map at line:  400
+[1A[1M> Setting up background map at line:  500
+[1A[1M> Setting up background map at line:  600
+[1A[1M> Setting up background map at line:  700
+[1A[1M> Setting up background map at line:  800
+[1A[1M> Setting up background map at line:  900
+[1A[1M> Setting up background map at line: 1000
+[1A[1M> Filtering background map(s)
+[1A[1M> Computing background d-map
+[1A[1M> Computing background-noise d-map
+[1A(M+D) Background: 123.385    RMS: 0.133864   / Threshold: 0.401592   
+[1M> Scanning image
+[1A[1M> Line:   25  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   50  Objects:        2 detected /        0 sextracted
+[1A[1M> Line:   75  Objects:        4 detected /        0 sextracted
+[1A[1M> Line:  100  Objects:        7 detected /        0 sextracted
+[1A[1M> Line:  125  Objects:        7 detected /        0 sextracted
+[1A[1M> Line:  150  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  175  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  200  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  225  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  250  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  275  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  300  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  325  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  350  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  375  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  400  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  425  Objects:        8 detected /        0 sextracted
+[1A[1M> Line:  450  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  475  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  500  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  525  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  550  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  575  Objects:        9 detected /        0 sextracted
+[1A[1M> Line:  600  Objects:       11 detected /        0 sextracted
+[1A[1M> Line:  625  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  650  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  675  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  700  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  725  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  750  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  775  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  800  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  825  Objects:       12 detected /        0 sextracted
+[1A[1M> Line:  850  Objects:       18 detected /        0 sextracted
+[1A[1M> Line:  875  Objects:       18 detected /        0 sextracted
+[1A[1M> Line:  900  Objects:       18 detected /        0 sextracted
+[1A[1M> Line:  925  Objects:       18 detected /        0 sextracted
+[1A[1M> Line:  950  Objects:       18 detected /        0 sextracted
+[1A[1M> Line:  975  Objects:       18 detected /        0 sextracted
+[1A[1M> Line: 1000  Objects:       18 detected /        0 sextracted
+[1A[1M> Line: 1019  Objects:       21 detected /        0 sextracted
+[1A[1M> Line: 1025  Objects:       21 detected /        5 sextracted
+[1A      Objects: detected 21       / sextracted 13              
+
+[1M> Looking for full_4201.fits
+[1A----- Measuring from: full_4201.fits [3/4]
+      "Unnamed" / no ext. header / 1070x1034 / 32 bits (integers)
+Detection+Measurement image: [1M> Setting up background maps
+[1A[1M> Setting up background map at line:  100
+[1A[1M> Setting up background map at line:  200
+[1A[1M> Setting up background map at line:  300
+[1A[1M> Setting up background map at line:  400
+[1A[1M> Setting up background map at line:  500
+[1A[1M> Setting up background map at line:  600
+[1A[1M> Setting up background map at line:  700
+[1A[1M> Setting up background map at line:  800
+[1A[1M> Setting up background map at line:  900
+[1A[1M> Setting up background map at line: 1000
+[1A[1M> Filtering background map(s)
+[1A[1M> Computing background d-map
+[1A[1M> Computing background-noise d-map
+[1A(M+D) Background: 15         RMS: 6.68461    / Threshold: 20.0538    
+[1M> Scanning image
+[1A[1M> Line:   25  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   50  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:   75  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  100  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  125  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  150  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  175  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  200  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  225  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  250  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  275  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  300  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  325  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  350  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  375  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  400  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  425  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  450  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  475  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  500  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  525  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  550  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  575  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  600  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  625  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  650  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  675  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  700  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  725  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  750  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  775  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  800  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  825  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  850  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  875  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  900  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  925  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  950  Objects:        0 detected /        0 sextracted
+[1A[1M> Line:  975  Objects:        0 detected /        0 sextracted
+[1A[1M> Line: 1000  Objects:        0 detected /        0 sextracted
+[1A[1M> Line: 1025  Objects:        0 detected /        0 sextracted
+[1A      Objects: detected 0        / sextracted 0               
+
+[1M> Closing files
+[1A[1M> 
+[1A> All done (in 0.3 s: 3771.1 lines/s , 0.0 detection/s)
+failed: 0
+Using TensorFlow backend.
+start_point2018-11-21 16:16:25.968551: I tensorflow/core/common_runtime/process_util.cc:69] Creating new thread pool with default inter op setting: 

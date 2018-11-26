@@ -1,0 +1,338 @@
+starting point--2018-11-21 16:13:22--  http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MAST/HST/product/jbfup2010_drz.fits
+Resolving www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)... 132.246.217.7, 132.246.217.6, 132.246.217.5, ...
+Connecting to www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)|132.246.217.7|:80... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: http://ws-sf.canfar.net/transfer/bmVpZ2g9U0ZVJnNpZ2V4cD0yMDE4MTEyMjAwMjgyMiZhcmM9TUFTVCZpZD01MDUxMGYzYjc1MTc4NmYwOTQ0MmM1MmM5YWU0MTc4ZmZiMGM0YzQ1YjI5NjUyOTYzNjI5NTk2YmI0MTAyNmU0MWFjZTE4ODZiMWE5ZTI2NWRmNDU0MWM3Y2JlMjJlNWVhZmIwOGEyNDU0YWVmM2FiN2RiZWNlYWNiNTM4NTgyOSZ1c2VyPWFub25Vc2VyJm5zPUhTVCUyRnByb2R1Y3QmbWV0aD1nZXQmYXV0aENvZGU9MCZ1cmw9aHR0cCUzQSUyRiUyRnN0b3Itc2YtMDEuY2FuZmFyLm5ldCUzQTg4ODglMkZhcmNoaXZlJTJGNGU2Nzk1NGMlMkYxNjEzJTJGbWFzdCUyRmRlZmF1bHQlMkYwMCUyRjI2JTJGMTMlMkY1MDUxMGYzYjc1MTc4NmYwOTQ0MmM1MmM5YWU0MTc4ZmZiMGM0YzQ1YjI5NjUyOTYzNjI5NTk2YmI0MTAyNmU0MWFjZTE4ODZiMWE5ZTI2NWRmNDU0MWM3Y2JlMjJlNWVhZmIwOGEyNDU0YWVmM2FiN2RiZWNlYWNiNTM4NTgyOSUyNTNCJTI1M0IyMTEzODc4MSZzZXJ2aWNlVXJsPWh0dHAlM0ElMkYlMkZ3d3cuY2FkYy1jY2RhLmhpYS1paGEubnJjLWNucmMuZ2MuY2ElMkZkYXRhJTJGcHViJTJGTUFTVCUyRkhTVCUyRnByb2R1Y3QlMkZqYmZ1cDIwMTBfZHJ6LmZpdHM=-ZmlkPWpiZnVwMjAxMF9kcnouZml0cyZjbG49NzQ4ODAmY21kPTAzZTc0M2M0NjFiYzU0YTgxMTQ0YzU4ZGQzMGI0YzhiJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1MjkzOTY4NzQwMDAmdWxuPTc0ODgwJnVtZD0wM2U3NDNjNDYxYmM1NGE4MTE0NGM1OGRkMzBiNGM4Yg==-43b665353cbb05f942e9209056d08dea/jbfup2010_drz.fits [following]
+--2018-11-21 16:13:22--  http://ws-sf.canfar.net/transfer/bmVpZ2g9U0ZVJnNpZ2V4cD0yMDE4MTEyMjAwMjgyMiZhcmM9TUFTVCZpZD01MDUxMGYzYjc1MTc4NmYwOTQ0MmM1MmM5YWU0MTc4ZmZiMGM0YzQ1YjI5NjUyOTYzNjI5NTk2YmI0MTAyNmU0MWFjZTE4ODZiMWE5ZTI2NWRmNDU0MWM3Y2JlMjJlNWVhZmIwOGEyNDU0YWVmM2FiN2RiZWNlYWNiNTM4NTgyOSZ1c2VyPWFub25Vc2VyJm5zPUhTVCUyRnByb2R1Y3QmbWV0aD1nZXQmYXV0aENvZGU9MCZ1cmw9aHR0cCUzQSUyRiUyRnN0b3Itc2YtMDEuY2FuZmFyLm5ldCUzQTg4ODglMkZhcmNoaXZlJTJGNGU2Nzk1NGMlMkYxNjEzJTJGbWFzdCUyRmRlZmF1bHQlMkYwMCUyRjI2JTJGMTMlMkY1MDUxMGYzYjc1MTc4NmYwOTQ0MmM1MmM5YWU0MTc4ZmZiMGM0YzQ1YjI5NjUyOTYzNjI5NTk2YmI0MTAyNmU0MWFjZTE4ODZiMWE5ZTI2NWRmNDU0MWM3Y2JlMjJlNWVhZmIwOGEyNDU0YWVmM2FiN2RiZWNlYWNiNTM4NTgyOSUyNTNCJTI1M0IyMTEzODc4MSZzZXJ2aWNlVXJsPWh0dHAlM0ElMkYlMkZ3d3cuY2FkYy1jY2RhLmhpYS1paGEubnJjLWNucmMuZ2MuY2ElMkZkYXRhJTJGcHViJTJGTUFTVCUyRkhTVCUyRnByb2R1Y3QlMkZqYmZ1cDIwMTBfZHJ6LmZpdHM=-ZmlkPWpiZnVwMjAxMF9kcnouZml0cyZjbG49NzQ4ODAmY21kPTAzZTc0M2M0NjFiYzU0YTgxMTQ0YzU4ZGQzMGI0YzhiJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1MjkzOTY4NzQwMDAmdWxuPTc0ODgwJnVtZD0wM2U3NDNjNDYxYmM1NGE4MTE0NGM1OGRkMzBiNGM4Yg==-43b665353cbb05f942e9209056d08dea/jbfup2010_drz.fits
+Resolving ws-sf.canfar.net (ws-sf.canfar.net)... 206.12.126.49
+Connecting to ws-sf.canfar.net (ws-sf.canfar.net)|206.12.126.49|:80... connected.
+HTTP request sent, awaiting response... 200 
+Length: 74880 (73K) [image/fits]
+Saving to: ‘/home/toyonaga/scratch/pipeline/full/full_7360.fits’
+
+     0K .......... .......... .......... .......... .......... 68% 3.43M 0s
+    50K .......... .......... ...                             100% 3.78M=0.02s
+
+2018-11-21 16:13:22 (3.53 MB/s) - ‘/home/toyonaga/scratch/pipeline/full/full_7360.fits’ saved [74880/74880]
+
+[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:22 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A[1M> Initializing catalog
+[1A
+> Not enough valid FITS image extensions in /home/toyonaga/scratch/pipeline/full/full_7360.fits
+
+failed: 0
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 55, in <module>
+    data, hdr = fits.getdata(IMAGE_PATH + ".fits", 0, header=True) #load image into memory only once  (18s vs. 0.28s)
+  File "/project/6016730/tensorflow-cpu/lib/python3.6/site-packages/astropy/io/fits/convenience.py", line 203, in getdata
+    raise IndexError('No data in this HDU.')
+IndexError: No data in this HDU.
+starting point--2018-11-21 16:13:32--  http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/MAST/HST/product/j8pr06020_drz.fits
+Resolving www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)... 132.246.217.4, 132.246.217.7, 132.246.217.5, ...
+Connecting to www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca (www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca)|132.246.217.4|:80... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: http://ws-sf.canfar.net/transfer/bmVpZ2g9U0ZVJnNpZ2V4cD0yMDE4MTEyMjAwMjgzMiZhcmM9TUFTVCZpZD02MjM4MWI4MDgwZGZkMWUzZTQ1ZmU3NDI1MTJjN2RlOGIwZDM4MGVmMDAwMTdiMjgzM2I5YzRjNWZhYjE0ZDJhYTdhNWQ0YzQ4MDM4MDNlNDY3MmJjNDY4OWFhMzlhMTVmMjhlZTQxNmZiNzAxMDJhODgwNGFlNGFkNjUyZTA3YiZ1c2VyPWFub25Vc2VyJm5zPUhTVCUyRnByb2R1Y3QmbWV0aD1nZXQmYXV0aENvZGU9MCZ1cmw9aHR0cCUzQSUyRiUyRnN0b3Itc2YtMDMuY2FuZmFyLm5ldCUzQTg4ODglMkZhcmNoaXZlJTJGZWM4MjBlNzMlMkYxODE0JTJGbWFzdCUyRmRlZmF1bHQlMkYwMCUyRjI5JTJGNjglMkY2MjM4MWI4MDgwZGZkMWUzZTQ1ZmU3NDI1MTJjN2RlOGIwZDM4MGVmMDAwMTdiMjgzM2I5YzRjNWZhYjE0ZDJhYTdhNWQ0YzQ4MDM4MDNlNDY3MmJjNDY4OWFhMzlhMTVmMjhlZTQxNmZiNzAxMDJhODgwNGFlNGFkNjUyZTA3YiUyNTNCJTI1M0IxOTk3NjY0OSZzZXJ2aWNlVXJsPWh0dHAlM0ElMkYlMkZ3d3cuY2FkYy1jY2RhLmhpYS1paGEubnJjLWNucmMuZ2MuY2ElMkZkYXRhJTJGcHViJTJGTUFTVCUyRkhTVCUyRnByb2R1Y3QlMkZqOHByMDYwMjBfZHJ6LmZpdHM=-ZmlkPWo4cHIwNjAyMF9kcnouZml0cyZjbG49NzQ4ODAmY21kPTdhNTE3ZjhiM2E3ZTdlMTQxNGRkMTU2OTU2YTRhODNiJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1Mjc5NTAzNjQwMDAmdWxuPTc0ODgwJnVtZD03YTUxN2Y4YjNhN2U3ZTE0MTRkZDE1Njk1NmE0YTgzYg==-352d094f42de976ce206af81c4b04607/j8pr06020_drz.fits [following]
+--2018-11-21 16:13:34--  http://ws-sf.canfar.net/transfer/bmVpZ2g9U0ZVJnNpZ2V4cD0yMDE4MTEyMjAwMjgzMiZhcmM9TUFTVCZpZD02MjM4MWI4MDgwZGZkMWUzZTQ1ZmU3NDI1MTJjN2RlOGIwZDM4MGVmMDAwMTdiMjgzM2I5YzRjNWZhYjE0ZDJhYTdhNWQ0YzQ4MDM4MDNlNDY3MmJjNDY4OWFhMzlhMTVmMjhlZTQxNmZiNzAxMDJhODgwNGFlNGFkNjUyZTA3YiZ1c2VyPWFub25Vc2VyJm5zPUhTVCUyRnByb2R1Y3QmbWV0aD1nZXQmYXV0aENvZGU9MCZ1cmw9aHR0cCUzQSUyRiUyRnN0b3Itc2YtMDMuY2FuZmFyLm5ldCUzQTg4ODglMkZhcmNoaXZlJTJGZWM4MjBlNzMlMkYxODE0JTJGbWFzdCUyRmRlZmF1bHQlMkYwMCUyRjI5JTJGNjglMkY2MjM4MWI4MDgwZGZkMWUzZTQ1ZmU3NDI1MTJjN2RlOGIwZDM4MGVmMDAwMTdiMjgzM2I5YzRjNWZhYjE0ZDJhYTdhNWQ0YzQ4MDM4MDNlNDY3MmJjNDY4OWFhMzlhMTVmMjhlZTQxNmZiNzAxMDJhODgwNGFlNGFkNjUyZTA3YiUyNTNCJTI1M0IxOTk3NjY0OSZzZXJ2aWNlVXJsPWh0dHAlM0ElMkYlMkZ3d3cuY2FkYy1jY2RhLmhpYS1paGEubnJjLWNucmMuZ2MuY2ElMkZkYXRhJTJGcHViJTJGTUFTVCUyRkhTVCUyRnByb2R1Y3QlMkZqOHByMDYwMjBfZHJ6LmZpdHM=-ZmlkPWo4cHIwNjAyMF9kcnouZml0cyZjbG49NzQ4ODAmY21kPTdhNTE3ZjhiM2E3ZTdlMTQxNGRkMTU2OTU2YTRhODNiJmN0eT1pbWFnZSUyRmZpdHMmbG1kPTE1Mjc5NTAzNjQwMDAmdWxuPTc0ODgwJnVtZD03YTUxN2Y4YjNhN2U3ZTE0MTRkZDE1Njk1NmE0YTgzYg==-352d094f42de976ce206af81c4b04607/j8pr06020_drz.fits
+Resolving ws-sf.canfar.net (ws-sf.canfar.net)... 206.12.126.49
+Connecting to ws-sf.canfar.net (ws-sf.canfar.net)|206.12.126.49|:80... connected.
+HTTP request sent, awaiting response... 200 
+Length: 74880 (73K) [image/fits]
+Saving to: ‘/home/toyonaga/scratch/pipeline/full/full_7361.fits’
+
+     0K .......... .......... .......... .......... .......... 68% 3.41M 0s
+    50K .......... .......... ...                             100% 3.39M=0.02s
+
+2018-11-21 16:13:34 (3.40 MB/s) - ‘/home/toyonaga/scratch/pipeline/full/full_7361.fits’ saved [74880/74880]
+
+[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:34 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A[1M> Initializing catalog
+[1A
+> Not enough valid FITS image extensions in /home/toyonaga/scratch/pipeline/full/full_7361.fits
+
+failed: 0
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 55, in <module>
+    data, hdr = fits.getdata(IMAGE_PATH + ".fits", 0, header=True) #load image into memory only once  (18s vs. 0.28s)
+  File "/project/6016730/tensorflow-cpu/lib/python3.6/site-packages/astropy/io/fits/convenience.py", line 203, in getdata
+    raise IndexError('No data in this HDU.')
+IndexError: No data in this HDU.
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:39 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7362.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7362.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:44 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7363.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7363.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:49 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7364.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7364.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:54 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7365.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7365.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:13:59 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7366.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7366.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:04 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7367.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7367.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:09 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7368.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7368.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:14 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7369.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7369.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:19 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7370.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7370.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:24 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7371.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7371.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:29 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7372.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7372.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:34 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7373.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7373.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:39 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7374.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7374.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:44 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7375.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7375.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:49 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7376.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7376.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:54 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7377.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7377.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:14:59 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7378.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7378.cat'
+starting point[1M> 
+[1A----- SExtractor 2.19.5 started on 2018-11-21 at 16:15:04 with 1 thread
+
+[1M> Setting catalog parameters
+[1A[1M> Reading detection filter
+[1A
+> *Error*: cannot open /home/toyonaga/scratch/pipeline/full/full_7379.fits
+
+Failed
+failed: 1
+Using TensorFlow backend.
+start_pointTraceback (most recent call last):
+  File "run_predictions_2.py", line 31, in <module>
+    f = open(SE_PATH,'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/toyonaga/scratch/pipeline/cat/image_7379.cat'

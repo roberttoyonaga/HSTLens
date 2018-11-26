@@ -172,8 +172,8 @@ class BaseKerasClassifier():
         Returns class predictions for X or probabilities depending on whether "discrete" is set to true
         """
         print("...Generating Predictions ...")
-        if (y !=None) and ( self.fitted is False):
-            self._fit(X, y)
+#         if (y !=None) and ( self.fitted is False):
+#             self._fit(X, y)
             
         try:    
             predictions = self.model.predict(X)
@@ -196,8 +196,8 @@ class BaseKerasClassifier():
         Purity = N(true positive) / [N(true positive) + N(false positive)]
         Compl. = N(true positive) / [N(true positive) + N(false negative)]
         """
-        if self.fitted is False:
-            self._fit(X, y)
+#         if self.fitted is False:
+#             self._fit(X, y)
             
         predictions = self._predict(X)
         
@@ -225,8 +225,8 @@ class BaseKerasClassifier():
         Returns fals positive rate and true positive rate a s 1d arrays. Returns thresholds too
         '''
         
-        if self.fitted is False:
-            self._fit(X, y)
+#         if self.fitted is False:
+#             self._fit(X, y)
         
         y_pred_keras = self.model.predict(X).ravel()
         fpr, tpr, t = roc_curve(y, y_pred_keras)
