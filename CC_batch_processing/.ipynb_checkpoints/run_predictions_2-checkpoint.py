@@ -34,8 +34,8 @@ while (True):
         text = f.readline()
         if count>16:
             words = text.split()
-            xl.append(words[1])
-            yl.append(words[2])
+            xl.append(words[0])
+            yl.append(words[1])
     except:
         break #breakout once the end is reached
     count+=1
@@ -143,11 +143,11 @@ out.to_csv(OUT_PATH, index = False) #dont save the indexing
 
 
     
-try:
-    os.system('rm /home/toyonaga/scratch/pipeline/full/full_'
-             +str(start_point)+'.fits /home/toyonaga/scratch/pipeline/cat/image_'
-             +str(start_point)+'.cat')
-    print("REMOVAL SUCCESSFUL")
+# try:
+#     os.system('rm /home/toyonaga/scratch/pipeline/full/full_'
+#              +str(start_point)+'.fits /home/toyonaga/scratch/pipeline/cat/image_'
+#              +str(start_point)+'.cat')
+#     print("REMOVAL SUCCESSFUL")
     
-except:
-    print('removal of images failed')
+# except:
+#     print('removal of images failed')

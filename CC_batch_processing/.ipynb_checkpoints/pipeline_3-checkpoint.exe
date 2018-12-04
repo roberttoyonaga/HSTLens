@@ -11,7 +11,7 @@ export OMP_NUM_THREADS=16
 
 
 COUNTER=0
-while [  $COUNTER -lt 10 ]; do
+while [  $COUNTER -lt 2 ]; do #10 
     
     
     #download the image
