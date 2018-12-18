@@ -1,0 +1,72 @@
+runmode
+	reference     3 0.000000 0.000000
+	SOURCEFLAG source    1 cusp_left-CHANGED.cat
+	#source    3 cusp.cat
+	#source    3 cusp_top.cat
+	#source    3 fold.cat
+	#source	  3 single.cat
+	#mass      3 200 0.2 mass.fits
+	PIXELFLAG pixel	  1 200 pixel_for_test.fits
+	shearfield  1 0.600 shear.dat
+	end
+grille
+	nombre      100
+	polaire     0
+	nlentille   1
+	end
+source
+	z_source     1.000
+	end
+potentiel O1
+	profil     81
+	XCENTFLAG x_centre     0.0
+	YCENTFLAG y_centre     0.01
+	ELLIPFLAG ellipticite     1.10   
+	#ellip_pot	1.5
+	angle_pos       100.0
+	core_radius  4.000  #doesnt do much
+	RADFLAG core_radius_kpc     12
+	cut_radius  1000.000 #didnt do much
+	cut_radius_kpc     941.161
+	v_disp     1232.411
+#	alpha 	   100 #no change
+#	beta	   0.5 #doesn change much
+	ZFLAG     3.0
+	end
+cline
+	nplan    1 0.600  
+	algorithm   MARCHINGSQUARES
+	limitHigh   10.0
+	limitLow    1.000
+	end
+observ
+	binning     1  4 
+	seeing	    1 1.  # float: guassian filter FWHM of size float in arcsec
+	bruit       0 #noise. if set  to then the background should also be 0, and "sky" doesnt matter
+	dispersion  2
+	SKYFLAG
+	end
+
+
+grande
+	iso         1 200 0.100 0.000 0.000
+#	vitesse     1  #commenting this out prevents negative values
+	name        best
+	profil      0 0
+	contour     0 0
+	large_dist  3.000
+	end
+
+cosmologie
+	H0        70.000
+	omegaM    0.7
+	omegaX    0.3
+	wX        -1.
+	end
+champ
+	xmin    -25 #-2.5  #22 oct22
+	xmax    25 #2.5 
+	ymin    -25 #-2.5 
+	ymax    25 #2.5 
+	end
+fini
