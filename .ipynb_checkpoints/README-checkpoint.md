@@ -26,7 +26,7 @@ Step 1: Creating the training set
 
 3) Run detections using batch processing
 - "jobscript_3.sh" launches 1472 24h jobs each with 1cpu and 8000M of memory. Each job is tasked with running detections on 5 HST images
-- "pipeline_3.ex" is called by jobscript_3.sh and is respinsible for launching the scripts to prepare and run detecitons on images
+- "pipeline_3.ex" is called by jobscript_3.sh and is responsible for launching the scripts to prepare and run detecitons on images
 - "dwnld_3.py" downloads images based on ../test_csv and calls source extractor on them
 - "run_predictions.py" creates predictions with 3 different models and averages+outputs their ratings 
 - ""../test_csv" list of all HST co-added product images as of november 2018
