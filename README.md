@@ -1,6 +1,7 @@
 Usage Instructions
-Step 1: Creating training set
- - 1) /make_simulations
+=========
+
+## STEP_1: /make_simulations
     - "with_zphot" is a table containing parameters of objects to download images of. (comments at top have been deleted)                                                                                                            
     - lenstool needs  "temp_parameters.parorig" (contains parameter flags) in order to properly set params                                                                                                                           
     - "dwnld_prep_makeparams.py" will download, center, size, cutouts, and generate simulated lens parameters                                              
@@ -15,18 +16,21 @@ Step 1: Creating training set
     - To create simulations run ./simulate_lenses and provide the number of lenses to create when prompted.
     - To create negatives run "python get_negatives.py" and follow prompt
 
-=====+++++======Alternatively========++++++========
-   
+
+**Alternatively** 
+
     - use make_training_set_batchjob_3.ipynb to do the merging and creation of negatives (this method was used to create batchjob3 training set)
     - You must already have created the lens featurs and centered cutouts.
 
-- 2) train the model /CC_batch_processing
+---
+## STEP_2: train the model /CC_batch_processing
     - /batchjob_3
     - HST_Lens_training_script_batchjob3.ipynb
     - 3 models should be trained and their weigths kept in "batchjob3_weights"
 
-- 3) Run detections using batch processing
-    - "jobscript_3.sh" launches 1472 24h jobs each with 1cpu and 8000M of memory. Each job is tasked with running detections on 5 HST images
+---
+## STEP_3 Run detections using batch processing
+    - "jobscript_3.sh" launches 1472 24h jobs each with 1 cpu and 8000M of memory. Each job is tasked with running detections on 5 HST images
     - "pipeline_3.exe" is called by jobscript_3.sh and is responsible for launching the scripts to prepare and run detecitons on images
     - "dwnld_3.py" downloads images based on ../test_csv and calls source extractor on them
     - "run_predictions.py" creates predictions with 3 different models and averages+outputs their ratings 
