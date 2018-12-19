@@ -1,0 +1,3 @@
+#NUMBER                   # Running object number  
+X_IMAGE                  # Object position along x                                   [pixel]
+Y_IMAGE                  # Object position along y                                   [pixel]

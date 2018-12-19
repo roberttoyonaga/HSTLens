@@ -6,7 +6,7 @@ import os
 batch_size = 1
 start_point = input("starting point")
 DWNLD_PATH = "/home/toyonaga/scratch/pipeline/full/full_"+str(start_point)
-CSV_PATH="test_csv" #shouldn't have to change
+CSV_PATH="../test_csv" #shouldn't have to change
 
 
 im_info = pd.read_csv(CSV_PATH)
@@ -27,6 +27,6 @@ for i in range(batch_size):
 print("failed: "+str(fails))
 
 try:
-    os.system('sex /home/toyonaga/scratch/pipeline/full/full_'+ str(start_point)+'.fits -c parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_'+str(start_point)+'.cat ')
+    os.system('sex /home/toyonaga/scratch/pipeline/full/full_'+ str(start_point)+'.fits -c projects/def-sfabbro/toyonaga/HSTLens/CC_batch_processing/sextractor/parameters.se -CATALOG_NAME /home/toyonaga/scratch/pipeline/cat/image_'+str(start_point)+'.cat ')
 except:
     print('sextractor failed')
