@@ -1,6 +1,6 @@
 Usage Instructions
 Step 1: Creating training set
--1) /make_simulations
+ - 1) /make_simulations
     - "with_zphot" is a table containing parameters of objects to download images of. (comments at top have been deleted)                                                                                                            
     - lenstool needs  "temp_parameters.parorig" (contains parameter flags) in order to properly set params                                                                                                                           
     - "dwnld_prep_makeparams.py" will download, center, size, cutouts, and generate simulated lens parameters                                              
@@ -15,7 +15,8 @@ Step 1: Creating training set
     - To create simulations run ./simulate_lenses and provide the number of lenses to create when prompted.
     - To create negatives run "python get_negatives.py" and follow prompt
 
-===========Alternatively================
+=====+++++======Alternatively========++++++========
+   
     - use make_training_set_batchjob_3.ipynb to do the merging and creation of negatives (this method was used to create batchjob3 training set)
     - You must already have created the lens featurs and centered cutouts.
 
