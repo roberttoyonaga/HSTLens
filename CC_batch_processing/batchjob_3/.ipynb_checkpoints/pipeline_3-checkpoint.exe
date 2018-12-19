@@ -2,9 +2,9 @@
 START_POINT=$1
 module load python/3.6
 module load sextractor/2.19.5
-source $HOME/projects/def-sfabbro/tensorflow-cpu/bin/activate
+source $HOME/projects/def-sfabbro/tensorflow-cpu/bin/activate #activate cpu tensorflow environment
 unset XDG_RUNTIME_DIR
-export OMP_NUM_THREADS=16
+export OMP_NUM_THREADS=16 #otherwise the allocation will run out of resources
 
 
 
