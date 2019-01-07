@@ -1,4 +1,5 @@
 weights
+documents
 *.fits
 batchjob_2_classes
 batchjob3_weights
@@ -6,3 +7,4 @@ dwnlds
 HSTLens_detections
 manual_detections
 *.tar.gz
+*.jpeg
