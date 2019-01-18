@@ -1,0 +1,27 @@
+#!/bin/sh
+START_POINT=$1
+
+
+
+
+
+
+COUNTER=0
+while [  $COUNTER -lt 100 ]; do 
+    
+    
+    #download the image
+    echo $(($START_POINT+$COUNTER)) | python dwnld_rdm_test_neg.py
+
+
+    #make cutouts and do detections and save output
+    echo $(($START_POINT+$COUNTER)) | python mk_cutouts.py   
+    
+    
+    let COUNTER=COUNTER+1 
+done
+
+
+
+
+

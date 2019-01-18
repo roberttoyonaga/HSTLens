@@ -8,3 +8,4 @@ HSTLens_detections
 manual_detections
 *.tar.gz
 *.jpeg
+*.npy

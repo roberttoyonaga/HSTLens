@@ -2,7 +2,7 @@ import pandas as pd
 import subprocess
 import os
 
-
+#test
 batch_size = 1
 start_point = input("starting point")
 DWNLD_PATH = "/home/toyonaga/scratch/pipeline/full/full_"+str(start_point)
