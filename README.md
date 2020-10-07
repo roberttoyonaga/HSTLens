@@ -43,6 +43,8 @@ Usage Instructions
     - to run detections: sbatch jobscript_3.sh 
         - You can also test out one job by using "python pipeline_3.exe" then entering a starting point from 0-7000. It will start do predicitons on a set of 5 HST images starting with that specific index.
 
+## Model Comparison
+- see simulation_classification directory
 
 
 
